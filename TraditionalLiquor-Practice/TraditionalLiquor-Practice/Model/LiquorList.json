@@ -1,0 +1,4608 @@
+/* 
+  LiquorList.json
+  TraditionalLiquor-Practice
+
+  Created by 순진이 on 2022/12/30.
+
+*/
+[
+  {
+    "liquorName": "애피소드호프",
+    "percentageOfAlcohol": 3.5,
+    "volume": "500ml",
+    "mainIngredient": "사과과즙, 보리, 쌀, 홉",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "애피소드 상그리아",
+    "percentageOfAlcohol": 3.5,
+    "volume": "500ml",
+    "mainIngredient": "포도와인, 정제주정, 정제수, 포도농축액, 고과당",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "애피소드 애플",
+    "percentageOfAlcohol": 3.5,
+    "volume": "500ml",
+    "mainIngredient": "사과",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "심술 알쓰",
+    "percentageOfAlcohol": 3.8,
+    "volume": "180ml",
+    "mainIngredient": "복분자",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "아이싱 자몽",
+    "percentageOfAlcohol": 4,
+    "volume": "350ml, 300ml",
+    "mainIngredient": "쌀, 자몽엑기스",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "메로니아",
+    "percentageOfAlcohol": 4,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 물엿, 합성착향료(메론향), 효모, 국, 혼합제제, 아스파탐, 젖산, 합성 향료(밀크향), 효소처리스테비아, 멜론농축액",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "바나나 주",
+    "percentageOfAlcohol": 4,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 국, 정제수, 바나나 농축액, 조제종국, 효모, 물엿",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "메로니아",
+    "percentageOfAlcohol": 4,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 국, 효모, 젖산, 멜론 향, 물엿 등",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "광양 생 막걸리 골드",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀(국산100%), 입국(국산), 곡자(국산누룩), 아스파탐(감미료, 페닐알라닌 함유), 정제효소, 효모, 젖산, 액화효소",
+    "manufacturer": "광양주조공사"
+  },
+  {
+    "liquorName": "광양 생 막걸리",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀(국산100%), 입국(국산), 곡자(국산누룩), 아스파탐(감미료, 페닐알라닌 함유), 정제효소, 효모, 젖산, 액화효소",
+    "manufacturer": "광양주조공사"
+  },
+  {
+    "liquorName": "인생막걸리",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "정제수,팽화미,팽화밀가루,말토올리고당,국,혼합제제효모,아스파탐,아세설팜칼륨",
+    "manufacturer": "서울장수(주)"
+  },
+  {
+    "liquorName": "지평 이랑이랑",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀, 자일리톨, 국, 효모, 레몬농축액, 허브류",
+    "manufacturer": "지평주조"
+  },
+  {
+    "liquorName": "1000억 유산균 막걸리",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "국내산쌀, 누룩",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "오목대",
+    "percentageOfAlcohol": 5,
+    "volume": "1,000ml",
+    "mainIngredient": "보리(국내산), 맥아(국내산), 말토텍스트린, 호프펠렛, 효모, 정제효소제, 정제수",
+    "manufacturer": "농업회사법인 동문거리양조장(주)"
+  },
+  {
+    "liquorName": "경기전",
+    "percentageOfAlcohol": 5,
+    "volume": "1000ml",
+    "mainIngredient": "국내산 보리, 맥아, 호프펠렛, 효모, 정제효소제, 정제수",
+    "manufacturer": "전주술로시티"
+  },
+  {
+    "liquorName": "SSOA-포도",
+    "percentageOfAlcohol": 5,
+    "volume": "355ml",
+    "mainIngredient": "국내산 포도",
+    "manufacturer": "㈜포천조술당"
+  },
+  {
+    "liquorName": "지평 생 옛막걸리",
+    "percentageOfAlcohol": 5,
+    "volume": "1,700ml",
+    "mainIngredient": "밀, 정제수, 국, 분말종국, 효모, 정제효소 등",
+    "manufacturer": "지평주조"
+  },
+  {
+    "liquorName": "지평 생 쌀막걸리",
+    "percentageOfAlcohol": 5,
+    "volume": "700ml, 1,700ml",
+    "mainIngredient": "쌀(국내산), 정제수, 국, 효모, 정제효소 등",
+    "manufacturer": "지평주조"
+  },
+  {
+    "liquorName": "은자골 생 탁배기",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "은척양조장"
+  },
+  {
+    "liquorName": "유자생막걸리",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "경기미 75%, 유자 국내산20% , 맥아당 5%",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "시나브로 에뚜왈 로제 스파클링",
+    "percentageOfAlcohol": 5,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "불휘농장"
+  },
+  {
+    "liquorName": "편백숲 산소막걸리",
+    "percentageOfAlcohol": 5.2,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 사과농축액,누룩,올리고당,아스파탐",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "편백숲 산소막걸리 순수령",
+    "percentageOfAlcohol": 5.8,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀, 맵쌀, 누룩",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "대잎 생동동주 (단종)",
+    "percentageOfAlcohol": 6,
+    "volume": "1700ml",
+    "mainIngredient": "국내산 쌀, 좁쌀, 정제효소, 젖산, 효모, 아스파탐, 영지, 생각, 정제수",
+    "manufacturer": "죽향도가"
+  },
+  {
+    "liquorName": "까메오 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "550ml",
+    "mainIngredient": "정제수, 쌀, 효모, 누룩, 과당 등",
+    "manufacturer": "낙천"
+  },
+  {
+    "liquorName": "다랭이팜 유자 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 유기농7분도쌀, 친환경유자원액, 혼합제과 누룩",
+    "manufacturer": "농업회사법인 주식회사 다랭이팜"
+  },
+  {
+    "liquorName": "동백우리쌀생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀 소맥분 물엿, 곡자, 효모, 조제종국, 정제효소, 아스파탐,아세설팜칼륨",
+    "manufacturer": "(주)동백양조"
+  },
+  {
+    "liquorName": "나루 생 막걸리 6도",
+    "percentageOfAlcohol": 6,
+    "volume": "935ml",
+    "mainIngredient": "정제수, 쌀(국내산), 국, 효모(밀함유)",
+    "manufacturer": "한강주조"
+  },
+  {
+    "liquorName": "호두땅콩막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "물, 쌀(국내산), 고과당, 국(밀), 땅콩(국내산)",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "아띠",
+    "percentageOfAlcohol": 6,
+    "volume": "450ml",
+    "mainIngredient": "쌀(국내산)",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "장수 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "백미(국내산), 말토올리고당, 홍삼분말",
+    "manufacturer": "서울장수주식회사"
+  },
+  {
+    "liquorName": "대대포 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀",
+    "manufacturer": "담양죽향도가"
+  },
+  {
+    "liquorName": "동정춘막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "720ml",
+    "mainIngredient": "국내산 쌀, 누룩, 정제수",
+    "manufacturer": "술빚는전가네"
+  },
+  {
+    "liquorName": "우도땅콩전통주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 우도땅콩",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "세종청주생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml / 1200ml",
+    "mainIngredient": "쌀, 소맥분",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "세종 알밤주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 백미, 소맥분, 알밤(국내산), 전분당, 효모, 젖산",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "지리산 정담 생쌀 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 종국, 정제수, 누룩, 효모",
+    "manufacturer": "운봉주조"
+  },
+  {
+    "liquorName": "영일만친구 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 물엿, 우뭇가사리, 효모, 조제 종국, 정제효소제, 아스파탐, 젖산",
+    "manufacturer": "동해명주"
+  },
+  {
+    "liquorName": "얼떨결에",
+    "percentageOfAlcohol": 6,
+    "volume": "920ml",
+    "mainIngredient": "쌀(국내산), 정제수, 정제효소, 효모, 젖산, 기타과장, 곡자(밀)",
+    "manufacturer": "동강주조"
+  },
+  {
+    "liquorName": "소양강 생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml/ 1700ml",
+    "mainIngredient": "백미, 소맥분, 정제수, 팽화미, 아스파탐, 물엿, 정제수",
+    "manufacturer": "소양강도가(구, 천정양조장)"
+  },
+  {
+    "liquorName": "국순당 생막걸리 대박",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "송명섭 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "500ml",
+    "mainIngredient": "국내산쌀, 곡자, 정제수",
+    "manufacturer": "태인합동주조장"
+  },
+  {
+    "liquorName": "선호 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제효소, 천연감미료, 정제수",
+    "manufacturer": "김포금쌀탁주영농조합법인"
+  },
+  {
+    "liquorName": "안성맞춤 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "1000ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 젖산, 정제효소, 정제수",
+    "manufacturer": "한주양조"
+  },
+  {
+    "liquorName": "양촌 생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "팽화미, 소맥분, 정제수, 물엿, 효소, 국 등",
+    "manufacturer": "양촌양조"
+  },
+  {
+    "liquorName": "김포 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 누룩, 정제수",
+    "manufacturer": "김포양조"
+  },
+  {
+    "liquorName": "유자향주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 유자(고흥산), 아스파탐",
+    "manufacturer": "청정영농조합법인"
+  },
+  {
+    "liquorName": "심술6 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 국(입국), 건조효모, 아세설팜칼륨, 아스파탐",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "톡쏘는 옥수수동동",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 정제수, 입국, 옥수수 농축액, 옥수수 추출물 등",
+    "manufacturer": "우리술"
+  },
+  {
+    "liquorName": "톡쏘는 고구마동동",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 정제수, 입국, 고구마 농축액, 고구마 추출물 등",
+    "manufacturer": "우리술"
+  },
+  {
+    "liquorName": "톡쏘는 알밤동동",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 정제수, 입국, 밤 농축액, 밤 추출물 등",
+    "manufacturer": "우리술"
+  },
+  {
+    "liquorName": "가평 잣 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 정제수, 쌀입국, 잣, 효모, 정제효소 등",
+    "manufacturer": "우리술"
+  },
+  {
+    "liquorName": "손가네 태종대 개똥쑥생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀, 태종대개똥쑥추출물, 입국, 누룩, 정제효소, 이소말토올리고당, 구연산, 아스파탐, 효모",
+    "manufacturer": "태종대양조"
+  },
+  {
+    "liquorName": "다랭이팜 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "지하정제수, 9분도쌀, 찹쌀, 혼합제제 누룩,",
+    "manufacturer": "농업회사법인 주식회사 다랭이팜"
+  },
+  {
+    "liquorName": "장홍삼 장수 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "백미,말토올리고당,홍삼분말",
+    "manufacturer": "서울장수(주)"
+  },
+  {
+    "liquorName": "이화백주",
+    "percentageOfAlcohol": 6,
+    "volume": "940ml",
+    "mainIngredient": "정제수, 쌀(국내산), 누룩, 설탕, 물엿, 밀, 아스파탐",
+    "manufacturer": "이화백주"
+  },
+  {
+    "liquorName": "호랑이 생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "물, 쌀(국내산),에리스리톨, 효모, 국, 젖산, 합성향료,밀함유",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "도구막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 밀가루, 효모, 조제종국, 정제효소제, 젖산, 아스파탐, 아세설팜칼륨",
+    "manufacturer": "동해명주"
+  },
+  {
+    "liquorName": "세오녀탁주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀(국내산, 포항쌀), 누룩, 효모, 조제종국, 정제효소제, 젖산",
+    "manufacturer": "동해명주"
+  },
+  {
+    "liquorName": "동해동동주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀100%(포항쌀)",
+    "manufacturer": "동해명주"
+  },
+  {
+    "liquorName": "영탁막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 백미(국내산), 입국(쌀, 밀), 물엿, 올리고당, 누룩(밀), 효모, 아스파탐, 아세설팔칼륨",
+    "manufacturer": "예천양조"
+  },
+  {
+    "liquorName": "지리산 허브잎술 쌀 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 입국, 정제수, 효모, 곡자, 국내산허브(로즈마리, 라벤다잎줄기추출액, 울금) 등",
+    "manufacturer": "운봉주조"
+  },
+  {
+    "liquorName": "야관문 쌀 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "팽화미, 입국, 효모, 곡자(밀), 정제수, 야관문잎 줄기 추출액 등",
+    "manufacturer": "지리산 운봉주조"
+  },
+  {
+    "liquorName": "동래아들",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 찹쌀, 맵쌀, 밀누룩",
+    "manufacturer": "제이케이크래프트"
+  },
+  {
+    "liquorName": "설성 만월 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 유기농쌀국내산, 누룩, 유기농올리고당 등",
+    "manufacturer": "병영주조장"
+  },
+  {
+    "liquorName": "선운산의 아침 복분자 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "복분자, 쌀, 효모, 국, 과당, 구연산, 젖산, 정제수",
+    "manufacturer": "국순당고창명주㈜"
+  },
+  {
+    "liquorName": "생 청주 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 소맥분, 국, 조제종국, 효모, 물엿 등",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "산정호수 동정춘막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "720ml",
+    "mainIngredient": "국내산 쌀, 누룩, 정제수",
+    "manufacturer": "(주)농업회사법인 술빚는 전가네"
+  },
+  {
+    "liquorName": "산막 생유 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 소맥분, 종국, 효모",
+    "manufacturer": "농업회사법인 신탄진주조(주)"
+  },
+  {
+    "liquorName": "봉하쌀 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 정제효소, 젖산, 효모, 아스파탐, 정제수",
+    "manufacturer": "농업회사법인 (주)봉하마을"
+  },
+  {
+    "liquorName": "병영설성 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 효모, 누룩, 정제수",
+    "manufacturer": "병영양조장"
+  },
+  {
+    "liquorName": "병영설성 동동주",
+    "percentageOfAlcohol": 6,
+    "volume": "1700ml",
+    "mainIngredient": "쌀(국내산), 전분, 효모, 누룩, 정제수",
+    "manufacturer": "병영양조장"
+  },
+  {
+    "liquorName": "미생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제효소, 정제수",
+    "manufacturer": "김포금쌀탁주 영농조합법인"
+  },
+  {
+    "liquorName": "두유노 (단종)",
+    "percentageOfAlcohol": 6,
+    "volume": "600ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 멥쌀, 누룩, 밀가루",
+    "manufacturer": "디오케이브루어리"
+  },
+  {
+    "liquorName": "인천 생 소성주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 팽화미, 정제수, 국, 효모, 아스파탐, 효소, 이소말토 올리고당",
+    "manufacturer": "인천탁주"
+  },
+  {
+    "liquorName": "우도 땅콩 전통주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 전분당, 백미, 국, 땅콩분, 효모, 젖산 등",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "괴산 세종 찰옥수수 전통주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 백미, 국, 옥수수분, 전분당, 조제종국, 효모, 조효소제, 치자색소,젖산, 아스파탐, 아세설팜칼륨,허브후레바E, 누룽지향, 구연산",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "공주알밤 왕밤주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "공주밤(국내산), 백미(국내산), 아스파탐",
+    "manufacturer": "사곡양조장"
+  },
+  {
+    "liquorName": "두륜탁주",
+    "percentageOfAlcohol": 6,
+    "volume": "1,700ml",
+    "mainIngredient": "쌀, 밀가루, 누룩, 당귀",
+    "manufacturer": "삼산주조장"
+  },
+  {
+    "liquorName": "지장수 호박 생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수(지장수), 쌀, 효모, 누룩, 과당 등",
+    "manufacturer": "낙천"
+  },
+  {
+    "liquorName": "죽향 생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 정제효소, 젖산, 효모, 아스파탐, 정제수",
+    "manufacturer": "농업회사법인 (주)죽향도가"
+  },
+  {
+    "liquorName": "주산지 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 밀가루, 누룩, 입국, 효모, 고과당, 물엿, 아스파탐, 삭카린나트륨, 정제수",
+    "manufacturer": "청송양조장"
+  },
+  {
+    "liquorName": "DOK막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "1,000ml",
+    "mainIngredient": "정제수, 맵쌀, 찹쌀, 누룩, 효소, 효모",
+    "manufacturer": "독브루어리"
+  },
+  {
+    "liquorName": "이동 생 쌀 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 백미, 팽화미, 입국, 아스파탐 등",
+    "manufacturer": "이동주조"
+  },
+  {
+    "liquorName": "은자골 곶감 생 탁배기",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "백미, 소맥분, 정제수, 곶감분말, 전분당, 국, 누룩, 효소, 아스파탐 등",
+    "manufacturer": "은척 양조장"
+  },
+  {
+    "liquorName": "행운 생유자 동동주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml / 1700ml",
+    "mainIngredient": "쌀(국내산), 소맥분(미국산), 전분당, 정제수, 유자과즙, 치자, 정제효소, 종국, 효모, 젖산, 아스파탐",
+    "manufacturer": "성포양조장"
+  },
+  {
+    "liquorName": "오산막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 국, 효모, 정제수",
+    "manufacturer": "농업회사법인 오산양조㈜"
+  },
+  {
+    "liquorName": "가야 프리미엄 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "김해 쌀(100%)",
+    "manufacturer": "가야양조장"
+  },
+  {
+    "liquorName": "성포 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 소맥분(미국산), 전분당, 정제수, 무농약 미나리추출액, 정제효소, 종국, 효모, 아스파탐",
+    "manufacturer": "성포양조장"
+  },
+  {
+    "liquorName": "레돔 시드르",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "사과",
+    "manufacturer": "작은알자스"
+  },
+  {
+    "liquorName": "아이원 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 밀, 입국, 누룩, 정제수",
+    "manufacturer": "이원양조장"
+  },
+  {
+    "liquorName": "월매 쌀막걸리(캔)",
+    "percentageOfAlcohol": 6,
+    "volume": "350ml",
+    "mainIngredient": "백미, 말토올리고당, 정제수",
+    "manufacturer": "서울장수㈜"
+  },
+  {
+    "liquorName": "호담 산양산삼 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀(경기미), 입국, 산양산삼, 정제수, 아스파탐",
+    "manufacturer": "대농바이오우리산삼"
+  },
+  {
+    "liquorName": "생탁주",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 올리고당, 사과농축액, 아스파탐, 효모, 정제수",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "백련 생막걸리 snow (스노우)",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "백미, 연잎, 정제수, 종국, 효모, 아스파탐, 물엿 등",
+    "manufacturer": "신평양조장"
+  },
+  {
+    "liquorName": "느린마을 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 국, 효모, 정제수",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "부안참뽕막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "950ml",
+    "mainIngredient": "쌀(국내산) 오디과즙,스테비올배당체,스쿠랄로스",
+    "manufacturer": "내변산(동진주조)"
+  },
+  {
+    "liquorName": "1932 새싹땅콩+햅쌀/흑미",
+    "percentageOfAlcohol": 6,
+    "volume": "500ml, 900ml",
+    "mainIngredient": "새싹땅콩+고시히카리 쌀, 새싹땅콩+진도산 흑미",
+    "manufacturer": "1932포천일동막걸리"
+  },
+  {
+    "liquorName": "소백산 검은콩 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "1500ml, 1200ml, 750ml",
+    "mainIngredient": "쌀",
+    "manufacturer": "대강양조장"
+  },
+  {
+    "liquorName": "소백산 생 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "1700ml, 750ml",
+    "mainIngredient": "쌀",
+    "manufacturer": "대강양조장"
+  },
+  {
+    "liquorName": "안양동동주",
+    "percentageOfAlcohol": 6,
+    "volume": "1700ml",
+    "mainIngredient": "국내산 햅쌀, 국내산 친환경 햇찹쌀",
+    "manufacturer": "안양주조장"
+  },
+  {
+    "liquorName": "줄포 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "내변산(동진주조)"
+  },
+  {
+    "liquorName": "참동이 허브잎술",
+    "percentageOfAlcohol": 6,
+    "volume": "900ml",
+    "mainIngredient": "국내산 쌀, 로즈마리 허브",
+    "manufacturer": "운봉주조"
+  },
+  {
+    "liquorName": "천마이야기 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "농업회사법인산들벗(주)"
+  },
+  {
+    "liquorName": "자연담은 복분자막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "360ml",
+    "mainIngredient": "국내산 복분자(고창), 정제수",
+    "manufacturer": "(농)국순당고창명주㈜"
+  },
+  {
+    "liquorName": "미나리 생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 국내산 무농약 미나리추출액",
+    "manufacturer": "성포양조장"
+  },
+  {
+    "liquorName": "백년친구 쌀막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "만수주조영농조합법인"
+  },
+  {
+    "liquorName": "불로생우리쌀막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "불로생우리쌀막걸리"
+  },
+  {
+    "liquorName": "울금생막걸리 정",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 국내산 울금",
+    "manufacturer": "영덕주조"
+  },
+  {
+    "liquorName": "세종 쌀막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "300ml, 750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "구암대추막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "1000ml",
+    "mainIngredient": "쌀, 대추",
+    "manufacturer": "구암농산"
+  },
+  {
+    "liquorName": "솔청정막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "조선양조"
+  },
+  {
+    "liquorName": "백년친구 풍기홍삼막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml, 900ml",
+    "mainIngredient": "국내산 쌀, 홍삼",
+    "manufacturer": "만수주조영농조합법인"
+  },
+  {
+    "liquorName": "새송이 쌀막걸리 정",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 새송이버섯",
+    "manufacturer": "영덕주조"
+  },
+  {
+    "liquorName": "톡쏘는 쌀 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "950ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "우리술"
+  },
+  {
+    "liquorName": "산천어막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "화천주가"
+  },
+  {
+    "liquorName": "지장수 호박막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "550ml",
+    "mainIngredient": "국내산 쌀, 호박",
+    "manufacturer": "낙천"
+  },
+  {
+    "liquorName": "미담",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "성광주조"
+  },
+  {
+    "liquorName": "고향생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "찬우물"
+  },
+  {
+    "liquorName": "솔바람생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "조선양조"
+  },
+  {
+    "liquorName": "왕매실 막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산쌀, 매실원액1%",
+    "manufacturer": "순성왕매실영농조합"
+  },
+  {
+    "liquorName": "삼막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산100%), 산양산삼(국내산), 올리고당",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "이천쌀생막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "1000ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "오성주조장"
+  },
+  {
+    "liquorName": "고향인삼막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "750ml",
+    "mainIngredient": "국내산쌀90%, 국내산인삼10%",
+    "manufacturer": "찬우물"
+  },
+  {
+    "liquorName": "황도배기 햅쌀막걸리",
+    "percentageOfAlcohol": 6,
+    "volume": "900ml",
+    "mainIngredient": "고창 황토배기 햅쌀",
+    "manufacturer": "우리술"
+  },
+  {
+    "liquorName": "요새로제",
+    "percentageOfAlcohol": 6.4,
+    "volume": "750ml",
+    "mainIngredient": "사과즙(국산), 오미자, 라즈베리차, 정제수, 효모, 사관산(산도조절제), 탄산가스, 메타중아황산칼륨(산화방지제)",
+    "manufacturer": "댄싱사이더컴퍼니"
+  },
+  {
+    "liquorName": "복순도가 손막걸리",
+    "percentageOfAlcohol": 6.5,
+    "volume": "935ml",
+    "mainIngredient": "정제수, 쌀(국산), 곡자(밀), 물엿, 설탕, 아스파탐(감미료,페닐알라닌함유)",
+    "manufacturer": "복순도가"
+  },
+  {
+    "liquorName": "담은",
+    "percentageOfAlcohol": 6.5,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀(국내산), 입국, 효모, 기타과당, 정제효소제",
+    "manufacturer": "포천일동막걸리"
+  },
+  {
+    "liquorName": "별산막걸리",
+    "percentageOfAlcohol": 6.5,
+    "volume": "800ml",
+    "mainIngredient": "정제수, 쌀(국내산), 입국, 효모, 엿류",
+    "manufacturer": "양주도가"
+  },
+  {
+    "liquorName": "오미자 생막걸리",
+    "percentageOfAlcohol": 6.5,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 백미(국내산), 입국(쌀, 밀), 올리고당, 물엿, 허브(유기농), 오미자 2.4%(국내산, 문경로동산), 정제효소, 아스파탐·아세셀펌칼륨(함성감미료, 메닐알라닌 함유)",
+    "manufacturer": "문경주조"
+  },
+  {
+    "liquorName": "호랑이배꼽",
+    "percentageOfAlcohol": 6.5,
+    "volume": "350ml, 750ml",
+    "mainIngredient": "평택 쌀(현미 40%, 백미 60%), 누룩, 정제수, 정백당",
+    "manufacturer": "밝은세상영농조합"
+  },
+  {
+    "liquorName": "고도리 복숭아와인",
+    "percentageOfAlcohol": 6.5,
+    "volume": "750ml",
+    "mainIngredient": "복숭아(영천)",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "토끼구름",
+    "percentageOfAlcohol": 6.8,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀, 올리고당, 전분, 조효소제, 혼합제제",
+    "manufacturer": "운곡도가"
+  },
+  {
+    "liquorName": "편백숲 산소막걸리 스파클링",
+    "percentageOfAlcohol": 6.8,
+    "volume": "940ml",
+    "mainIngredient": "찹쌀, 맵쌀, 누룩",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "편백숲 산소막걸리 딸기 스파클링",
+    "percentageOfAlcohol": 6.8,
+    "volume": "940ml",
+    "mainIngredient": "찹쌀, 멥쌀, 누룩, 딸기, 올리고당",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "오곡 진상주",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 밀, 보리, 옥수수, 조 등",
+    "manufacturer": "대강양조장"
+  },
+  {
+    "liquorName": "심술 7",
+    "percentageOfAlcohol": 7,
+    "volume": "330ml",
+    "mainIngredient": "정제수, 옥수수전분, 기타과당, 백설탕, 주정, 젖산, 과채가공품, 이산화탄소,국,활성건조효모,아세설팜칼륨",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "볼빨간막걸리 7",
+    "percentageOfAlcohol": 7,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 찹쌀, 누룩",
+    "manufacturer": "벗드림양조장"
+  },
+  {
+    "liquorName": "맑은내일 발효 막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀, 누룩, 정제효소, 아스파탐",
+    "manufacturer": "우포의 아침 주식회사"
+  },
+  {
+    "liquorName": "매실 막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 매실과즙",
+    "manufacturer": "백운주가"
+  },
+  {
+    "liquorName": "도깨비술 7",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "국내산 멥쌀, 누룩, 효모, 정제수",
+    "manufacturer": "도깨비양조장"
+  },
+  {
+    "liquorName": "제주감귤주 귤로만",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "감귤원액(제주)",
+    "manufacturer": "제주와이너리"
+  },
+  {
+    "liquorName": "매실탁테일",
+    "percentageOfAlcohol": 7,
+    "volume": "375ml",
+    "mainIngredient": "국내산 백미, 매실천연과즙",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "매화마름 호랑이 막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "375ml",
+    "mainIngredient": "쌀",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "왕피천을 품은 미소생막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 누룩, 정제수",
+    "manufacturer": "울진술도가"
+  },
+  {
+    "liquorName": "미소 생막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "울진술도가"
+  },
+  {
+    "liquorName": "2017년 햅쌀로 빚은 첫술",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "국내산 햅쌀",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "하얀연꽃 백련생막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "375ml, 750ml",
+    "mainIngredient": "국내산 백미, 국내산 백련잎",
+    "manufacturer": "신평양조장"
+  },
+  {
+    "liquorName": "하얀연꽃 백련막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "신평양조장"
+  },
+  {
+    "liquorName": "미몽 (단종)",
+    "percentageOfAlcohol": 7,
+    "volume": "360ml",
+    "mainIngredient": "국내산 쌀, 국내산 인삼",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "입장탁주",
+    "percentageOfAlcohol": 7,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "(농) 입장주조㈜"
+  },
+  {
+    "liquorName": "대포막걸리",
+    "percentageOfAlcohol": 7,
+    "volume": "425ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "빙탄복",
+    "percentageOfAlcohol": 7,
+    "volume": "370ml",
+    "mainIngredient": "복분자",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "스파클링와인",
+    "percentageOfAlcohol": 7.2,
+    "volume": "750ml",
+    "mainIngredient": "사과",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "우렁이쌀 손막걸리 DRY",
+    "percentageOfAlcohol": 7.5,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 찹쌀(국내산), 쌀(국내산), 효모, 종국",
+    "manufacturer": "양촌양조"
+  },
+  {
+    "liquorName": "우렁이쌀 손 막걸리",
+    "percentageOfAlcohol": 7.5,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "양촌양조"
+  },
+  {
+    "liquorName": "쿨샷 7.5",
+    "percentageOfAlcohol": 7.5,
+    "volume": "300ml",
+    "mainIngredient": "복분자과실, 주정, 효모, 구연산, 정제수",
+    "manufacturer": "고창선운산"
+  },
+  {
+    "liquorName": "레돔 내추럴 스파클링 로제와인",
+    "percentageOfAlcohol": 7.5,
+    "volume": "750ml",
+    "mainIngredient": "포도",
+    "manufacturer": "작은알자스"
+  },
+  {
+    "liquorName": "기다림 25",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "국내산 백미, 국내산 찹쌀, 곡자, 정제수",
+    "manufacturer": "제이케이크래프트"
+  },
+  {
+    "liquorName": "황감찰",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 찹쌀, 누룩, 효모, 정제수",
+    "manufacturer": "운곡도가"
+  },
+  {
+    "liquorName": "걍즐겨",
+    "percentageOfAlcohol": 8,
+    "volume": "600ml",
+    "mainIngredient": "멥쌀,찹쌀,누룩,프렌치세종,석류,히비스커스",
+    "manufacturer": "디오케이브루어리"
+  },
+  {
+    "liquorName": "연천 아주",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "농업회사법인 연천양조㈜"
+  },
+  {
+    "liquorName": "술아 핸드메이드 막걸리",
+    "percentageOfAlcohol": 8,
+    "volume": "450ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 정제수",
+    "manufacturer": "술아원"
+  },
+  {
+    "liquorName": "동정춘",
+    "percentageOfAlcohol": 8,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 누룩, 정제수",
+    "manufacturer": "농업회사법인㈜산수"
+  },
+  {
+    "liquorName": "술헤는밤",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 누룩(국내산)",
+    "manufacturer": "두루전통양조"
+  },
+  {
+    "liquorName": "시향가",
+    "percentageOfAlcohol": 8,
+    "volume": "500ml",
+    "mainIngredient": "물, 쌀(국내산), 건조토란(국내산), 국, 젖산, 효모, 밀",
+    "manufacturer": "농업회사법인 시향가(주)"
+  },
+  {
+    "liquorName": "DOK X 메킷나이스",
+    "percentageOfAlcohol": 8,
+    "volume": "650ml",
+    "mainIngredient": "멥쌀,찹쌀,누룩,생강,고수씨",
+    "manufacturer": "디오케이브루어리"
+  },
+  {
+    "liquorName": "설하담",
+    "percentageOfAlcohol": 8,
+    "volume": "950ml / 475ml",
+    "mainIngredient": "국내산 멥쌀 100%, 개량 누룩, 정제수, 이산화탄소",
+    "manufacturer": "리큐랩주식회사"
+  },
+  {
+    "liquorName": "편백숲 산소막걸리 순수령 8%",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀, 맵쌀, 누룩",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "옛날막걸리 古",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "국내산쌀, 누룩",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "자희향 나비",
+    "percentageOfAlcohol": 8,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀(국내산), 멥쌀(국내산), 누룩(국내산), 정제수",
+    "manufacturer": "자희자양"
+  },
+  {
+    "liquorName": "이화주",
+    "percentageOfAlcohol": 8,
+    "volume": "100ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "허니문",
+    "percentageOfAlcohol": 8,
+    "volume": "375ml",
+    "mainIngredient": "벌꿀(국내산)",
+    "manufacturer": "아이비영농조합법인"
+  },
+  {
+    "liquorName": "허니비",
+    "percentageOfAlcohol": 8,
+    "volume": "500ml",
+    "mainIngredient": "벌꿀(국내산)",
+    "manufacturer": "아이비영농조합법인"
+  },
+  {
+    "liquorName": "다래와인 7004S",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "참다래",
+    "manufacturer": "오름주가"
+  },
+  {
+    "liquorName": "다래와인 3004",
+    "percentageOfAlcohol": 8,
+    "volume": "375ml",
+    "mainIngredient": "참다래",
+    "manufacturer": "오름주가"
+  },
+  {
+    "liquorName": "오미로제 연",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "오미자",
+    "manufacturer": "오미나라"
+  },
+  {
+    "liquorName": "꿀막걸리",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 벌꿀(국내산), 사과농축액, 효모, 정제효소",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "금정산성막걸리",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "백미, 밀(누룩), 정제수",
+    "manufacturer": "금정산성 토산주"
+  },
+  {
+    "liquorName": "사미인주",
+    "percentageOfAlcohol": 8,
+    "volume": "750ml",
+    "mainIngredient": "유기농 햅쌀, 벌꿀",
+    "manufacturer": "청산녹수"
+  },
+  {
+    "liquorName": "오희 스파클링 막걸리",
+    "percentageOfAlcohol": 8.5,
+    "volume": "500ml",
+    "mainIngredient": "백미, 건오미자, 조효소제, 효모, 정제수",
+    "manufacturer": "문경주조"
+  },
+  {
+    "liquorName": "기다림 16",
+    "percentageOfAlcohol": 9,
+    "volume": "750ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 흑미, 곡자, 정제수",
+    "manufacturer": "제이케이크래프트"
+  },
+  {
+    "liquorName": "아임프리",
+    "percentageOfAlcohol": 9,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 쌀, 국, 효모",
+    "manufacturer": "농업회사법인 주식회사 술샘"
+  },
+  {
+    "liquorName": "역전주",
+    "percentageOfAlcohol": 9,
+    "volume": "500ml",
+    "mainIngredient": "쌀,누룩",
+    "manufacturer": "바싹불고기"
+  },
+  {
+    "liquorName": "해창 막걸리 9도",
+    "percentageOfAlcohol": 9,
+    "volume": "900ml",
+    "mainIngredient": "햅쌀, 찹쌀, 물, 누룩",
+    "manufacturer": "해창주조장"
+  },
+  {
+    "liquorName": "희양산 막걸리 9도",
+    "percentageOfAlcohol": 9,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀(국내산), 누룩(국내산), 효모",
+    "manufacturer": "두술도가"
+  },
+  {
+    "liquorName": "술공방 9.0 막걸리",
+    "percentageOfAlcohol": 9,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 쌀(국내산), 국(쌀, 국내산), 누룩(밀)",
+    "manufacturer": "아리랑주조"
+  },
+  {
+    "liquorName": "도깨비술 9",
+    "percentageOfAlcohol": 9,
+    "volume": "750ml",
+    "mainIngredient": "국내산 멥쌀, 누룩, 효모, 정제수",
+    "manufacturer": "도깨비양조장"
+  },
+  {
+    "liquorName": "정고집 나주배 약주 9%",
+    "percentageOfAlcohol": 9,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 쌀가루(국내산), 배착즙액(나주산), 정제효소제, 종국, 젖산, 효모",
+    "manufacturer": "남도탁주"
+  },
+  {
+    "liquorName": "찹쌀생막걸리 9도",
+    "percentageOfAlcohol": 9,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀(해남산), 멥쌀(해남산), 누룩",
+    "manufacturer": "삼산주조장"
+  },
+  {
+    "liquorName": "냥이탁주",
+    "percentageOfAlcohol": 9,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 쌀, 찰보리, 찰수수, 벌꿀, 오미자, 송순, 누룩, 개량누룩",
+    "manufacturer": "행주산성주가"
+  },
+  {
+    "liquorName": "부자 송산포도",
+    "percentageOfAlcohol": 9,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 누룩, 포도즙",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "우리밀 막걸리 향수",
+    "percentageOfAlcohol": 9,
+    "volume": "700ml",
+    "mainIngredient": "쌀, 밀, 입국, 누룩, 정제수",
+    "manufacturer": "이원양조장"
+  },
+  {
+    "liquorName": "헤베",
+    "percentageOfAlcohol": 9,
+    "volume": "330ml",
+    "mainIngredient": "사과와인 100%(사과과즙: 국내산, 효모, 소르빈산칼륨: 합성보존료)",
+    "manufacturer": "한국애플리즈"
+  },
+  {
+    "liquorName": "우곡생주",
+    "percentageOfAlcohol": 10,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제수",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "복순도가 탁주",
+    "percentageOfAlcohol": 10,
+    "volume": "935ml",
+    "mainIngredient": "정제수, 쌀(국산), 곡자(밀)",
+    "manufacturer": "복순도가"
+  },
+  {
+    "liquorName": "배꽃담은연",
+    "percentageOfAlcohol": 10,
+    "volume": "720ml",
+    "mainIngredient": "쌀 26.1%, 효모 0.07%, 젖산 0.05%, 정제수 72.31%",
+    "manufacturer": "술빚는전가네"
+  },
+  {
+    "liquorName": "심술 10",
+    "percentageOfAlcohol": 10,
+    "volume": "330ml",
+    "mainIngredient": "정제수, 옥수수전분, 기타과당, 백설탕, 주정, 젖산, 과채가공품, 이산화탄소,국,활성건조효모,아세설팜칼륨",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "술그리다 생탁주",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "국내산쌀, 누룩",
+    "manufacturer": "좋은술"
+  },
+  {
+    "liquorName": "백자주",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 멥쌀, 잣, 누룩, 정제수",
+    "manufacturer": "농업회사법인㈜산수"
+  },
+  {
+    "liquorName": "양촌 생 동동주",
+    "percentageOfAlcohol": 10,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 백미 효소제, 효모 등",
+    "manufacturer": "양촌양조"
+  },
+  {
+    "liquorName": "백년향",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "쌀,누룩,정제수",
+    "manufacturer": "추연당"
+  },
+  {
+    "liquorName": "만강에 비친 달",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "홍천쌀, 단호박, 곡자(밀누룩)",
+    "manufacturer": "예술주조"
+  },
+  {
+    "liquorName": "삼선",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "국내산쌀, 누룩, 정제수",
+    "manufacturer": "농업회사법인 두루(주)"
+  },
+  {
+    "liquorName": "볼빨간막걸리 10",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀(국내산), 누룩, 정제수",
+    "manufacturer": "농업회사법인 (주)벗드림"
+  },
+  {
+    "liquorName": "나 와인",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀 100%",
+    "manufacturer": "영농법인에스비케이조합"
+  },
+  {
+    "liquorName": "소백산 청 동동주",
+    "percentageOfAlcohol": 10,
+    "volume": "1700ml",
+    "mainIngredient": "쌀, 소맥분, 누룩, 주정, 고과당, 대추 등",
+    "manufacturer": "대강양조장"
+  },
+  {
+    "liquorName": "오드린 베베마루 아내를 위한",
+    "percentageOfAlcohol": 10,
+    "volume": "375ml",
+    "mainIngredient": "캠벨얼리 포도",
+    "manufacturer": "월류원"
+  },
+  {
+    "liquorName": "복순도가 약주",
+    "percentageOfAlcohol": 10,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 누룩",
+    "manufacturer": "복순도가"
+  },
+  {
+    "liquorName": "미인탁주",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 누룩, 정제수",
+    "manufacturer": "최행숙전통주가"
+  },
+  {
+    "liquorName": "도문대작 생막걸리",
+    "percentageOfAlcohol": 10,
+    "volume": "750ml",
+    "mainIngredient": "강릉 쌀, 누룩, 갯방풍나물, 정제수",
+    "manufacturer": "방풍도가"
+  },
+  {
+    "liquorName": "시인의마을",
+    "percentageOfAlcohol": 10,
+    "volume": "700ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "이원양조장"
+  },
+  {
+    "liquorName": "부자 10%",
+    "percentageOfAlcohol": 10,
+    "volume": "375ml",
+    "mainIngredient": "경기미 100%",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "감그린 아이스와인",
+    "percentageOfAlcohol": 10,
+    "volume": "375ml",
+    "mainIngredient": "감(국내산)",
+    "manufacturer": "청도감와인"
+  },
+  {
+    "liquorName": "시나브로 로제와인",
+    "percentageOfAlcohol": 10,
+    "volume": "500ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "불휘농장"
+  },
+  {
+    "liquorName": "베베마루 캠벨로제 스위트",
+    "percentageOfAlcohol": 10,
+    "volume": "375ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "월류원"
+  },
+  {
+    "liquorName": "고도리 화이트와인 스위트",
+    "percentageOfAlcohol": 10.5,
+    "volume": "750ml",
+    "mainIngredient": "거봉포도(영천)",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "고도리 청수 와인",
+    "percentageOfAlcohol": 10.5,
+    "volume": "750ml",
+    "mainIngredient": "포도(청수)",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "고도리 화이트와인 드라이",
+    "percentageOfAlcohol": 10.5,
+    "volume": "750ml",
+    "mainIngredient": "거봉포도(영천)",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "홍시와인",
+    "percentageOfAlcohol": 10.5,
+    "volume": "375ml",
+    "mainIngredient": "감열매(국내산), 효모, 메타중아황산칼륨, 이산화황",
+    "manufacturer": "젤코바와이너리"
+  },
+  {
+    "liquorName": "산머루와인 달콤한 스위트",
+    "percentageOfAlcohol": 10.5,
+    "volume": "750ml",
+    "mainIngredient": "산머루",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "매아랑",
+    "percentageOfAlcohol": 10.7,
+    "volume": "750ml",
+    "mainIngredient": "국내산 매실",
+    "manufacturer": "하동매실 영농조합법인"
+  },
+  {
+    "liquorName": "붉은 원숭이",
+    "percentageOfAlcohol": 10.8,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 홍국, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "술취한 원숭이",
+    "percentageOfAlcohol": 10.8,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 홍국, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "도깨비술 11",
+    "percentageOfAlcohol": 11,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀, 국,효모",
+    "manufacturer": "도깨비양조장"
+  },
+  {
+    "liquorName": "백운 복분자 와인",
+    "percentageOfAlcohol": 11,
+    "volume": "360ml",
+    "mainIngredient": "쌀, 토종 복분자과즙",
+    "manufacturer": "백운주가"
+  },
+  {
+    "liquorName": "제주몬순커피주",
+    "percentageOfAlcohol": 11,
+    "volume": "200ml",
+    "mainIngredient": "정제수, 설탕, 커피생두, 효모",
+    "manufacturer": "제주커피수목원"
+  },
+  {
+    "liquorName": "커피와인 톡시(중복-증류주)",
+    "percentageOfAlcohol": 11,
+    "volume": "200ml",
+    "mainIngredient": "커피생두 발효액",
+    "manufacturer": "제주커피수목원"
+  },
+  {
+    "liquorName": "커피와인 톡시",
+    "percentageOfAlcohol": 11,
+    "volume": "200ml",
+    "mainIngredient": "커피생두 발효액",
+    "manufacturer": "제주커피수목원"
+  },
+  {
+    "liquorName": "김포약주(중복)",
+    "percentageOfAlcohol": 11,
+    "volume": "750ml",
+    "mainIngredient": "소맥분, 옥전분",
+    "manufacturer": "김포양조"
+  },
+  {
+    "liquorName": "대통주",
+    "percentageOfAlcohol": 11,
+    "volume": "360ml",
+    "mainIngredient": "국내산 쌀, 국내산 매실농축액, 국내산 대나무잎",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "김포약주",
+    "percentageOfAlcohol": 11,
+    "volume": "750ml",
+    "mainIngredient": "옥수수 전분, 밀, 국, 효모, 젖산, 효소제, 정제수",
+    "manufacturer": "김포양조"
+  },
+  {
+    "liquorName": "니모메",
+    "percentageOfAlcohol": 11,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산), 감귤 진피, 정제수",
+    "manufacturer": "제주샘주"
+  },
+  {
+    "liquorName": "홍천강 탁주",
+    "percentageOfAlcohol": 11,
+    "volume": "500ml",
+    "mainIngredient": "홍천 쌀, 정제수, 국(밀 누룩)",
+    "manufacturer": "예술주조"
+  },
+  {
+    "liquorName": "추사 블루베리 와인",
+    "percentageOfAlcohol": 11,
+    "volume": "375ml",
+    "mainIngredient": "예산블루베리 60%(국내산), 설탕, 구연산, 무수아황산, 소르빈산칼륨",
+    "manufacturer": "예산사과와인"
+  },
+  {
+    "liquorName": "한스오차드 사과와인",
+    "percentageOfAlcohol": 11,
+    "volume": "750ml",
+    "mainIngredient": "사과",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "프리미엄 애플와인 한스오차드",
+    "percentageOfAlcohol": 11,
+    "volume": "750ml",
+    "mainIngredient": "국내산 사과",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "뱅꼬레 화이트와인",
+    "percentageOfAlcohol": 11,
+    "volume": "375ml",
+    "mainIngredient": "양조용포도(경북 영천)",
+    "manufacturer": "한국와인"
+  },
+  {
+    "liquorName": "나루 생 막걸리 11.5도",
+    "percentageOfAlcohol": 11.5,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 쌀(국내산), 국, 효모(밀함유)",
+    "manufacturer": "한강주조"
+  },
+  {
+    "liquorName": "젤코바 스페셜와인",
+    "percentageOfAlcohol": 11.5,
+    "volume": "375ml, 500ml, 750ml",
+    "mainIngredient": "국내산 산머루, MBA포도",
+    "manufacturer": "젤코바와이너리"
+  },
+  {
+    "liquorName": "뱅꼬레 로제와인",
+    "percentageOfAlcohol": 11.5,
+    "volume": "375ml",
+    "mainIngredient": "양조용포도(영천)",
+    "manufacturer": "한국와인"
+  },
+  {
+    "liquorName": "산머루 크라테 로제",
+    "percentageOfAlcohol": 11.5,
+    "volume": "375ml",
+    "mainIngredient": "산머루",
+    "manufacturer": "수도산와이너리"
+  },
+  {
+    "liquorName": "산머루 크라테 드라이",
+    "percentageOfAlcohol": 11.5,
+    "volume": "750ml",
+    "mainIngredient": "산머루",
+    "manufacturer": "수도산와이너리"
+  },
+  {
+    "liquorName": "산머루 크라테 스위트",
+    "percentageOfAlcohol": 11.5,
+    "volume": "750ml",
+    "mainIngredient": "산머리(국내산)",
+    "manufacturer": "수도산와이너리"
+  },
+  {
+    "liquorName": "코이버펑크, 샤르도네 세미용 2018",
+    "percentageOfAlcohol": 11.5,
+    "volume": "750ml",
+    "mainIngredient": "샤르도네 포도품종, 세미용 포도품종, 실바너 포도품종",
+    "manufacturer": "코이버펑크"
+  },
+  {
+    "liquorName": "기다림 34",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "국내산 멥쌀, 국내산 찹쌀, 곡자, 정제수",
+    "manufacturer": "제이케이크래프트"
+  },
+  {
+    "liquorName": "여인",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "구멍떡, 누룩, 찹쌀",
+    "manufacturer": "중원당"
+  },
+  {
+    "liquorName": "오매백주",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 국, 효모, 정제수",
+    "manufacturer": "농업회사법인 오산양조(주)"
+  },
+  {
+    "liquorName": "만남의장소 (단종)",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "멥쌀, 밀누룩, 꿀, 건포도, 레몬, 생강, 후추, 효모",
+    "manufacturer": "구름아 양조장"
+  },
+  {
+    "liquorName": "씨(C) 그린막걸리",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 물, 누룩, 케일, 개똥쑥",
+    "manufacturer": "씨(C) 막걸리"
+  },
+  {
+    "liquorName": "씨(C) 옐로막걸리",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 물, 누룩, 당근, 레몬그라스",
+    "manufacturer": "씨(C) 막걸리"
+  },
+  {
+    "liquorName": "씨(C) 막걸리 시그니처 큐베",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 물, 누룩, 노간주나무열매, 건포도",
+    "manufacturer": "씨(C) 막걸리"
+  },
+  {
+    "liquorName": "구름을 벗삼아",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "백미(국내산: 지역햅쌀 100%), 우리밀 전통누룩",
+    "manufacturer": "문경주조"
+  },
+  {
+    "liquorName": "연오랑탁주",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 쌀(국내산, 포항쌀), 누룩, 효모, 조제종국, 정제효소제, 젖산",
+    "manufacturer": "동해명주"
+  },
+  {
+    "liquorName": "풍정사계 추(秋)",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "풍정사계 추(秋)",
+    "manufacturer": "화양"
+  },
+  {
+    "liquorName": "호모루덴스",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 누룩, 정제수",
+    "manufacturer": "산수양조장"
+  },
+  {
+    "liquorName": "문삼이공(moon320) 잣 주",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀19.02%, 멥쌀13.16%, 누룩3.3%, 잣1.02%, 정제수63.5%",
+    "manufacturer": "마마스팜"
+  },
+  {
+    "liquorName": "자희향",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀(국내산), 멥쌀(국내산), 누룩(국내산), 정제수",
+    "manufacturer": "자희자양"
+  },
+  {
+    "liquorName": "찹쌀 생막걸리 12도",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀, 멥쌀, 누룩",
+    "manufacturer": "삼산주조장"
+  },
+  {
+    "liquorName": "젤코바 프리미엄 와인",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml, 750ml",
+    "mainIngredient": "국내산 산머루, MBA포도",
+    "manufacturer": "젤코바와이너리"
+  },
+  {
+    "liquorName": "라이코펜 토마토와인",
+    "percentageOfAlcohol": 12,
+    "volume": "350ml, 500ml",
+    "mainIngredient": "국내산 토마토",
+    "manufacturer": "토마토와인주식회사"
+  },
+  {
+    "liquorName": "연천 연주",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "농업회사법인 연천양조(주)"
+  },
+  {
+    "liquorName": "성읍민속마을 오메기술",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "좁쌀, 누룩",
+    "manufacturer": "술다끄는집"
+  },
+  {
+    "liquorName": "맑은내일 우포",
+    "percentageOfAlcohol": 12,
+    "volume": "325ml, 500ml",
+    "mainIngredient": "국내산 쌀, 옥수수전분, 효모, 누룩, 양파, 정제수",
+    "manufacturer": "우포의아침"
+  },
+  {
+    "liquorName": "다래와인 7004D",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "참다래",
+    "manufacturer": "오름주가"
+  },
+  {
+    "liquorName": "그랑티그르 M1988",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "캠벨얼리 포도, 오미자",
+    "manufacturer": "월류원"
+  },
+  {
+    "liquorName": "그랑티그르 CE2002",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "캠벨얼리 포도",
+    "manufacturer": "월류원"
+  },
+  {
+    "liquorName": "여포의 꿈 레드",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 포도",
+    "manufacturer": "여포와인농장"
+  },
+  {
+    "liquorName": "시나브로 레드 드라이",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "캠벨얼리",
+    "manufacturer": "불휘농장"
+  },
+  {
+    "liquorName": "시나브로 청수 화이트",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "청수 100%",
+    "manufacturer": "불휘농장"
+  },
+  {
+    "liquorName": "백련 맑은술",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "백미, 정제수, 물엿, 과당, 누룩, 백련잎, 누룩 등",
+    "manufacturer": "신평양조장"
+  },
+  {
+    "liquorName": "혼디주",
+    "percentageOfAlcohol": 12,
+    "volume": "330ml",
+    "mainIngredient": "제주산감귤, 백설탕, 구연산, 무수아황산",
+    "manufacturer": "㈜시트러스"
+  },
+  {
+    "liquorName": "스파클링와인 오미로제 결",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "오미자",
+    "manufacturer": "오미나라"
+  },
+  {
+    "liquorName": "샤토미소 랑",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "청수",
+    "manufacturer": "도란원"
+  },
+  {
+    "liquorName": "초선의 꿈",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "국내산 포도",
+    "manufacturer": "여포와인농장"
+  },
+  {
+    "liquorName": "여포의 꿈 (화이트)",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 포도",
+    "manufacturer": "여포와인농장"
+  },
+  {
+    "liquorName": "샤토미소 레드 스위트",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도, 산화방지제, 효모, 설탕 등",
+    "manufacturer": "도란원"
+  },
+  {
+    "liquorName": "추사 애플와인",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "사과(국내산)",
+    "manufacturer": "예산사과와인"
+  },
+  {
+    "liquorName": "감그린 스페셜",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "감(국내산)",
+    "manufacturer": "청도감와인"
+  },
+  {
+    "liquorName": "감그린 레귤러",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "감(국내산)",
+    "manufacturer": "청도감와인"
+  },
+  {
+    "liquorName": "스타베리오디",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "양조용포도(영천)",
+    "manufacturer": "한국와인"
+  },
+  {
+    "liquorName": "추사 로제",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "사과",
+    "manufacturer": "예산사과와인"
+  },
+  {
+    "liquorName": "아이스 375",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "포도",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "로제 와인 750",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "친환경 GAP 거봉포도",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "레드 와인 500",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "친환경 거봉 포도",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "복분자음",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "복분자(국내산), 정제수",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "감악산 산머루주",
+    "percentageOfAlcohol": 12,
+    "volume": "360ml",
+    "mainIngredient": "머루원액 78.5%(경기 파주), 주정(국내산, 수입산)",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "고도리 레드와인 스위트",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "MBA 머루포도(영천)",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "뱅꼬레 아이스와인",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "양조용포도(영천)",
+    "manufacturer": "한국와인"
+  },
+  {
+    "liquorName": "뱅꼬레 레드와인",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "양조용포도(영천)",
+    "manufacturer": "한국와인"
+  },
+  {
+    "liquorName": "두레앙와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "거봉포도",
+    "manufacturer": "두레양조"
+  },
+  {
+    "liquorName": "무주구천동머루와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "머루",
+    "manufacturer": "덕유양조"
+  },
+  {
+    "liquorName": "그랑꼬또 M56",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도",
+    "manufacturer": "그린영농조합"
+  },
+  {
+    "liquorName": "그랑꼬또 로제와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도",
+    "manufacturer": "그린영농조합"
+  },
+  {
+    "liquorName": "그랑꼬또 청수",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도",
+    "manufacturer": "그린영농조합"
+  },
+  {
+    "liquorName": "오미로제 스파클링 와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 오미자",
+    "manufacturer": "문경주조"
+  },
+  {
+    "liquorName": "그랑꼬또 레드와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml, 375ml",
+    "mainIngredient": "국내산 포도(캠벨얼리)",
+    "manufacturer": "그린영농조합"
+  },
+  {
+    "liquorName": "자두와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 자두",
+    "manufacturer": "자두사랑"
+  },
+  {
+    "liquorName": "머루드서",
+    "percentageOfAlcohol": 12,
+    "volume": "300ml",
+    "mainIngredient": "국내산 산머루 100%",
+    "manufacturer": "산머루농원영농조합법인"
+  },
+  {
+    "liquorName": "너와머루와인",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml, 700ml",
+    "mainIngredient": "국내산 산머루 100%",
+    "manufacturer": "산머루농원영농조합법인"
+  },
+  {
+    "liquorName": "샤토미소 로제스위트와인",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "국내산 포도원액",
+    "manufacturer": "도란원"
+  },
+  {
+    "liquorName": "머루이야기",
+    "percentageOfAlcohol": 12,
+    "volume": "350ml",
+    "mainIngredient": "국내산 머루(전북 무주)",
+    "manufacturer": "산들벗(주0"
+  },
+  {
+    "liquorName": "하얀연꽃 백련맑은 술",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml, 750ml",
+    "mainIngredient": "국내산 쌀, 백련잎",
+    "manufacturer": "신평양조장"
+  },
+  {
+    "liquorName": "오미시앙 스페셜",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "오미자, 주정, 설탕, 효모",
+    "manufacturer": "알에프"
+  },
+  {
+    "liquorName": "오미로제 프리미어와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "오미자(문경산)",
+    "manufacturer": "농업회사법인(주)제이엘"
+  },
+  {
+    "liquorName": "오가피와인",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "오가피 열매(국내산), 백설탕, 효모, 메타중아황산칼륨",
+    "manufacturer": "영농조합법인 금이산농원"
+  },
+  {
+    "liquorName": "예밀와인 로제",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "예밀2리영농조합법인"
+  },
+  {
+    "liquorName": "예밀와인 레드 스위트",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "예밀2리영농조합법인"
+  },
+  {
+    "liquorName": "여포의 꿈 레드(SWEET)",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 포도 100%",
+    "manufacturer": "여포와인농장"
+  },
+  {
+    "liquorName": "여포의 꿈 레드(Dry)",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 포도 100%",
+    "manufacturer": "여포와인농장"
+  },
+  {
+    "liquorName": "시나브로 레드 스위트",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "불휘농장"
+  },
+  {
+    "liquorName": "시나브로 드 글로리아",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "불휘농장"
+  },
+  {
+    "liquorName": "사과와인",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "사과(국내산), 백설탕, 효모, 메타중아황산칼륨",
+    "manufacturer": "금이산농원"
+  },
+  {
+    "liquorName": "블루베리 이야기",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "국내산 산머루 50%, 블루베리 50%",
+    "manufacturer": "농업회사법인산들벗(주)"
+  },
+  {
+    "liquorName": "복숭아와인",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "복숭아(국내산), 백설탕, 효모, 메타중아황산칼륨",
+    "manufacturer": "금이산농원"
+  },
+  {
+    "liquorName": "미소 아이스",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "포도, 산화방지제, 효모",
+    "manufacturer": "도란원"
+  },
+  {
+    "liquorName": "베베마루 캠밸로제",
+    "percentageOfAlcohol": 12,
+    "volume": "375ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "월류원"
+  },
+  {
+    "liquorName": "머루드 서 스위트",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "국내산 산머루",
+    "manufacturer": "산머루농원"
+  },
+  {
+    "liquorName": "마셔블랑",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "감귤과즙, 백설탕, 액상효모, 무수아황산",
+    "manufacturer": "시트러스"
+  },
+  {
+    "liquorName": "도로시 머루주",
+    "percentageOfAlcohol": 12,
+    "volume": "500ml",
+    "mainIngredient": "국내산 산머루원액 78.5%, 주정",
+    "manufacturer": "산머루농원영농조합법인"
+  },
+  {
+    "liquorName": "대잎술",
+    "percentageOfAlcohol": 12,
+    "volume": "300ml",
+    "mainIngredient": "쌀, 누룩, 댓잎, 솔잎, 진피, 갈근, 오미자, 구기자, 죽력 등",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "로제와인",
+    "percentageOfAlcohol": 12,
+    "volume": "550ml",
+    "mainIngredient": "포도(국내산)",
+    "manufacturer": "갈기산포도농원"
+  },
+  {
+    "liquorName": "소백산 스위트 와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "포도(국내산)",
+    "manufacturer": "산내들와인"
+  },
+  {
+    "liquorName": "산머루와인 깊은맛 드라이",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "산머루",
+    "manufacturer": "하미앙"
+  },
+  {
+    "liquorName": "오크와인",
+    "percentageOfAlcohol": 12,
+    "volume": "750ml",
+    "mainIngredient": "산머루",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "삼양춘 생탁주",
+    "percentageOfAlcohol": 12.5,
+    "volume": "500ml",
+    "mainIngredient": "강화섬쌀, 전통누룩, 정제수",
+    "manufacturer": "송도향전통주조"
+  },
+  {
+    "liquorName": "국순당 이화주",
+    "percentageOfAlcohol": 12.5,
+    "volume": "400ml",
+    "mainIngredient": "이화누룩, 국내산쌀",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "금산인삼주 12.5%",
+    "percentageOfAlcohol": 12.5,
+    "volume": "360ml",
+    "mainIngredient": "국내산쌀 93.5%, 국내산인삼 6.5%",
+    "manufacturer": "금산인삼주"
+  },
+  {
+    "liquorName": "명인 홍삼주",
+    "percentageOfAlcohol": 12.5,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 홍삼, 누룩, 정제수 등",
+    "manufacturer": "금산인삼주"
+  },
+  {
+    "liquorName": "코이버펑크, 머스캣 베일리 에이 2017",
+    "percentageOfAlcohol": 12.5,
+    "volume": "750ml",
+    "mainIngredient": "머스캣 벨일리 베이 포도품종 100% (경북 영천)",
+    "manufacturer": "코이버펑크"
+  },
+  {
+    "liquorName": "코이버펑크, 카베르네 소비뇽 2019",
+    "percentageOfAlcohol": 12.5,
+    "volume": "750ml",
+    "mainIngredient": "카베르네 소비뇽 포도품종 100% (경북 영천)",
+    "manufacturer": "코이버펑크"
+  },
+  {
+    "liquorName": "맑은 문희주",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "국내산 유기농찹쌀, 국내산 멥쌀, 전통누룩, 정제수",
+    "manufacturer": "문경주조"
+  },
+  {
+    "liquorName": "동학 1957",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml, 700ml",
+    "mainIngredient": "국내산 쌀, 구연산, 효모, 젖산, 정제효소제, 국, 주정, 정제수",
+    "manufacturer": "고헌정영농조합법인"
+  },
+  {
+    "liquorName": "대윤 가야곡 왕주",
+    "percentageOfAlcohol": 13,
+    "volume": "300ml",
+    "mainIngredient": "쌀, 누룩, 효모, 물엿, 정제수",
+    "manufacturer": "대윤가야곡주조"
+  },
+  {
+    "liquorName": "감자술 13%",
+    "percentageOfAlcohol": 13,
+    "volume": "700ml",
+    "mainIngredient": "국내산 백미, 국내산 감자, 누룩, 효모, 정제수",
+    "manufacturer": "오대서주양조"
+  },
+  {
+    "liquorName": "지리산 강쇠",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 쌀, 누룩, 오가피, 산수유, 오미자, 정백당 ,구연산, 정제효소, 야관문",
+    "manufacturer": "농업회사법인(유)술소리"
+  },
+  {
+    "liquorName": "라이스퐁당",
+    "percentageOfAlcohol": 13,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 찹쌀, 누룩, 삼지구엽초, 감초",
+    "manufacturer": "벗드림양조장"
+  },
+  {
+    "liquorName": "술예쁘다 생탁주",
+    "percentageOfAlcohol": 13,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 누룩",
+    "manufacturer": "좋은술"
+  },
+  {
+    "liquorName": "백운복분자주",
+    "percentageOfAlcohol": 13,
+    "volume": "360ml",
+    "mainIngredient": "국내산 쌀, 국내산 복분자",
+    "manufacturer": "백운주가"
+  },
+  {
+    "liquorName": "세종대왕어주 탁주",
+    "percentageOfAlcohol": 13,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "장희"
+  },
+  {
+    "liquorName": "세종 오가닉",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 유기농 백미, 국, 효모, 정제효소, 구연산",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "모을동주 약주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산), 조제종국 효모, 정제효소, 정제수",
+    "manufacturer": "대작영농조합법인"
+  },
+  {
+    "liquorName": "솔송주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "백미(국내산) 90%, 솔잎·송순(국내산) 10%",
+    "manufacturer": "솔송주"
+  },
+  {
+    "liquorName": "김포예주",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 옥전분",
+    "manufacturer": "김포양조"
+  },
+  {
+    "liquorName": "황진이주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "국내산 오미자, 국내산 산수유",
+    "manufacturer": "농업회사법인(유)술소리"
+  },
+  {
+    "liquorName": "만품 산삼가득",
+    "percentageOfAlcohol": 13,
+    "volume": "350ml",
+    "mainIngredient": "국내산쌀(경기미), 국내 산양산삼",
+    "manufacturer": "대농바이오우리산삼"
+  },
+  {
+    "liquorName": "민들레대포",
+    "percentageOfAlcohol": 13,
+    "volume": "330ml",
+    "mainIngredient": "쌀, 누룩, 민들레",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "가야곡왕주",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 야생 국화, 구기자, 오미자, 솔잎, 매실",
+    "manufacturer": "민속주왕주"
+  },
+  {
+    "liquorName": "오메기술",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "백미(국내산), 차조(국내산), 입국(국내산), 누룩, 효모",
+    "manufacturer": "제주샘주"
+  },
+  {
+    "liquorName": "모월 연",
+    "percentageOfAlcohol": 13,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 밀누룩(국산)",
+    "manufacturer": "모월"
+  },
+  {
+    "liquorName": "백세주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "설갱미, 전통누룩, 구기자, 오미자, 홍삼, 산수유, 진피, 백문동, 백수오, 산사, 건강, 고수, 감초, 수국",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "석로주",
+    "percentageOfAlcohol": 13,
+    "volume": "720ml",
+    "mainIngredient": "국내산 쌀, 석이버섯, 누룩, 효모, 정제수",
+    "manufacturer": "석이원주조"
+  },
+  {
+    "liquorName": "김포별주",
+    "percentageOfAlcohol": 13,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 옥수수 전분, 국, 효모, 젖산, 효소제, 정제수",
+    "manufacturer": "김포양조"
+  },
+  {
+    "liquorName": "김포예주 프리미엄",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 국, 효모, 젖산, 정제수",
+    "manufacturer": "김포양조"
+  },
+  {
+    "liquorName": "송이주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 송이농축액, 누룩, 정제수",
+    "manufacturer": "내국양조"
+  },
+  {
+    "liquorName": "능이주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 능이농축액, 누룩, 정제수",
+    "manufacturer": "내국양조"
+  },
+  {
+    "liquorName": "우곡주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "쌀",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "문희 탁주",
+    "percentageOfAlcohol": 13,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "문경주조"
+  },
+  {
+    "liquorName": "예화",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 누룩, 효모, 물엿, 정제수",
+    "manufacturer": "농업회사법인 대윤가야곡주조(주)"
+  },
+  {
+    "liquorName": "샤토미소 레드 드라이",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "MBA, 산머루, 캠벨 얼리",
+    "manufacturer": "도란원"
+  },
+  {
+    "liquorName": "고창선운산 땡큐블루베리주",
+    "percentageOfAlcohol": 13,
+    "volume": "300ml",
+    "mainIngredient": "블루베리과실, 주정, 효모, 구연산, 정제수",
+    "manufacturer": "고창선운산"
+  },
+  {
+    "liquorName": "고창선운산 땡큐복분자주",
+    "percentageOfAlcohol": 13,
+    "volume": "300ml",
+    "mainIngredient": "복분자과실, 주정, 효모, 구연산, 정제수",
+    "manufacturer": "고창선운산"
+  },
+  {
+    "liquorName": "부안참뽕와인",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "정제수, 오디(국내산), 주정, 과당",
+    "manufacturer": "동진주조"
+  },
+  {
+    "liquorName": "레드듀 RED DEW",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "무농약머루",
+    "manufacturer": "동강산머루영농조합법인"
+  },
+  {
+    "liquorName": "명작복분자",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "복분자",
+    "manufacturer": "국순당고창명주(주0"
+  },
+  {
+    "liquorName": "산막생대덕주",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "국내산 찹쌀, 누룩",
+    "manufacturer": "신탄진주조"
+  },
+  {
+    "liquorName": "천안연미주",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "입장주조㈜"
+  },
+  {
+    "liquorName": "오디랑",
+    "percentageOfAlcohol": 13,
+    "volume": "330ml",
+    "mainIngredient": "오디(국산) 18.2%, 정제수, 과당, 주정, 구연산, 효모",
+    "manufacturer": "국순당 고창명주"
+  },
+  {
+    "liquorName": "예밀와인 레드 드라이",
+    "percentageOfAlcohol": 13,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리)",
+    "manufacturer": "예밀2리영농조합법인"
+  },
+  {
+    "liquorName": "선운산 복분자와인",
+    "percentageOfAlcohol": 13,
+    "volume": "300ml",
+    "mainIngredient": "복분자(고창산), 구연산, 과당, 아스파탐, 주정, 정제수",
+    "manufacturer": "(주)선운산복분자주 흥진"
+  },
+  {
+    "liquorName": "샹스프랑보아즈",
+    "percentageOfAlcohol": 13,
+    "volume": "500ml",
+    "mainIngredient": "복분자(고창산), 구연산, 과당, 구연산, 아스파탐, 주정, 정제수",
+    "manufacturer": "(주)선운산복분자주 흥진"
+  },
+  {
+    "liquorName": "젤코바 캠벨와인",
+    "percentageOfAlcohol": 13.5,
+    "volume": "750ml",
+    "mainIngredient": "유기농 캠벨포도, 유기농 설탕",
+    "manufacturer": "젤코바와이너리"
+  },
+  {
+    "liquorName": "밤꽃향기",
+    "percentageOfAlcohol": 13.5,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 밤, 누룩, 정제수",
+    "manufacturer": "사곡양조장"
+  },
+  {
+    "liquorName": "머루드 서 드라이",
+    "percentageOfAlcohol": 13.5,
+    "volume": "750ml",
+    "mainIngredient": "국내산 산머루",
+    "manufacturer": "산머루농원"
+  },
+  {
+    "liquorName": "구기홍주 14",
+    "percentageOfAlcohol": 14,
+    "volume": "360ml, 750ml",
+    "mainIngredient": "국내산 쌀, 국, 구기자추출액, 올리고당, 효모, 효소, 아세설팜칼륨, 정제수",
+    "manufacturer": "두이술공방"
+  },
+  {
+    "liquorName": "그리움",
+    "percentageOfAlcohol": 14,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "천비향 오양주 탁주",
+    "percentageOfAlcohol": 14,
+    "volume": "500ml",
+    "mainIngredient": "국내산쌀, 누룩",
+    "manufacturer": "좋은술"
+  },
+  {
+    "liquorName": "조선주조사",
+    "percentageOfAlcohol": 14,
+    "volume": "300ml, 700ml",
+    "mainIngredient": "쌀(국내산), 입국, 누룩, 주정, 정제수",
+    "manufacturer": "농업회사법인 우포의아침(주)"
+  },
+  {
+    "liquorName": "홍삼명주",
+    "percentageOfAlcohol": 14,
+    "volume": "375ml, 500ml, 750ml",
+    "mainIngredient": "홍삼(국내산)",
+    "manufacturer": "자연과 인삼"
+  },
+  {
+    "liquorName": "율무 동동주",
+    "percentageOfAlcohol": 14,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 누룩, 효모, 연천 율무, 정제수",
+    "manufacturer": "농업회사법인 연천양조㈜"
+  },
+  {
+    "liquorName": "매실향기 담은 술",
+    "percentageOfAlcohol": 14,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 효모, 조효소재, 물엿, 아스파탐, 정제수",
+    "manufacturer": "명세주가"
+  },
+  {
+    "liquorName": "남산애 레드와인",
+    "percentageOfAlcohol": 14,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리, MBA, 산머루)",
+    "manufacturer": "예인화원"
+  },
+  {
+    "liquorName": "유기농이도 14",
+    "percentageOfAlcohol": 14,
+    "volume": "750ml",
+    "mainIngredient": "물, 유기농쌀(국내산),국[유기농쌀(국내산)], 우리밀누룩(국내산)",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "복단지",
+    "percentageOfAlcohol": 14,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산), 복분자(국내산), 누룩(국내산 밀함유)",
+    "manufacturer": "술아원"
+  },
+  {
+    "liquorName": "양촌 우렁이쌀 청주",
+    "percentageOfAlcohol": 14,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 국내산쌀, 입국, 효모, 종국",
+    "manufacturer": "양촌양조"
+  },
+  {
+    "liquorName": "감사블루",
+    "percentageOfAlcohol": 14,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 효모, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "감사",
+    "percentageOfAlcohol": 14,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "배꽃 필 무렵",
+    "percentageOfAlcohol": 14,
+    "volume": "20ml / 140ml",
+    "mainIngredient": "맵쌀, 잣잎추출물",
+    "manufacturer": "예술주조"
+  },
+  {
+    "liquorName": "양지백주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제수",
+    "manufacturer": "양지술곳간"
+  },
+  {
+    "liquorName": "대통대잎술",
+    "percentageOfAlcohol": 15,
+    "volume": "700ml",
+    "mainIngredient": "쌀, 누룩, 갈근, 구기자, 솔잎, 진피 등",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "녹파주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 멥쌀, 누룩, 정제수",
+    "manufacturer": "솔송주(명가원)"
+  },
+  {
+    "liquorName": "기다림 맑은술",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산 멥쌀, 국내산 찹쌀, 곡자, 정제수",
+    "manufacturer": "제이케이크래프트"
+  },
+  {
+    "liquorName": "순향주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 누룩, 정제수",
+    "manufacturer": "추연당"
+  },
+  {
+    "liquorName": "희양산 막걸리 15도",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 쌀(국내산), 누룩(국내산), 효모",
+    "manufacturer": "두술도가"
+  },
+  {
+    "liquorName": "석탄주 탁주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 정제수",
+    "manufacturer": "케이소주"
+  },
+  {
+    "liquorName": "바랑 탁",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 멥쌀, 누룩, 소맥분, 정제수",
+    "manufacturer": "금계당"
+  },
+  {
+    "liquorName": "방문주 탁주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 정제수",
+    "manufacturer": "케이소주"
+  },
+  {
+    "liquorName": "원매",
+    "percentageOfAlcohol": 15,
+    "volume": "750ml",
+    "mainIngredient": "매실원주액, 매실청, 꿀, 카라멜, 효소처리스테비아, 정제수",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "정고집 나주배 약주 15%",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 쌀가루(국내산), 배착즙액(나주산), 정제효소제, 종국, 젖산, 효모",
+    "manufacturer": "남도탁주"
+  },
+  {
+    "liquorName": "애석",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산쌀, 누룩, 정제수",
+    "manufacturer": "농업회사법인 (주)두루"
+  },
+  {
+    "liquorName": "석탄주 약주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 정제수",
+    "manufacturer": "케이소주(전주가양주연구소)"
+  },
+  {
+    "liquorName": "모든날에",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "정제수48.8%, 찹쌀(국내산, 39%), 멥쌀(국내산, 7.8%), 밀누룩4.4%",
+    "manufacturer": "양지술곳간"
+  },
+  {
+    "liquorName": "보성 강하주",
+    "percentageOfAlcohol": 15,
+    "volume": "350ml",
+    "mainIngredient": "국내산 찹쌀100%",
+    "manufacturer": "보성강하주"
+  },
+  {
+    "liquorName": "자희향 국화주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "자희자양"
+  },
+  {
+    "liquorName": "방문주 약주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 정제수",
+    "manufacturer": "케이소주"
+  },
+  {
+    "liquorName": "맑은술 해밀",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 누룩, 정제수",
+    "manufacturer": "내변산양조장"
+  },
+  {
+    "liquorName": "맑은바당",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산), 국(밀누룩)",
+    "manufacturer": "술도가 제주바당"
+  },
+  {
+    "liquorName": "풍정사계 춘(春)",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 향온곡",
+    "manufacturer": "화양"
+  },
+  {
+    "liquorName": "삼양춘 청주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 찹쌀, 맵쌀, 누룩",
+    "manufacturer": "삼양춘"
+  },
+  {
+    "liquorName": "세종대왕어주 약주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 누룩 정제수",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "술아 국화주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 건조국화꽃, 증류주, 정제수",
+    "manufacturer": "술아원"
+  },
+  {
+    "liquorName": "술아 연화주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 건조연화꽃, 증류주, 정제수",
+    "manufacturer": "술아원"
+  },
+  {
+    "liquorName": "술아 매화주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 건조매화꽃, 증류주, 정제수",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "김포특주",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 효모, 정제효소,정제수, 프락토올리고당",
+    "manufacturer": "김포금쌀탁주영농조합법인"
+  },
+  {
+    "liquorName": "삼양춘 생약주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "강화섬쌀, 전통누룩, 정제수",
+    "manufacturer": "삼양춘"
+  },
+  {
+    "liquorName": "미인약주",
+    "percentageOfAlcohol": 15,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 누룩, 정제수",
+    "manufacturer": "최행숙전통주가"
+  },
+  {
+    "liquorName": "공주애 오디와인",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "국내산 오디, 정제수, 주정, 과당, 효모",
+    "manufacturer": "사곡양조원"
+  },
+  {
+    "liquorName": "도원결의",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 쌀, 복숭아, 조효소제, 효모, 젖산, 정제효소제, 효소처리스테비아, 구연산, 복숭아향",
+    "manufacturer": "농업회사법인영덕주조"
+  },
+  {
+    "liquorName": "고창선운산 복분자주 특1호",
+    "percentageOfAlcohol": 15,
+    "volume": "1800ml",
+    "mainIngredient": "복분자과실, 주정, 효모, 구연산, 정제수",
+    "manufacturer": "고창선운산"
+  },
+  {
+    "liquorName": "예주",
+    "percentageOfAlcohol": 15,
+    "volume": "750ml",
+    "mainIngredient": "복분자, 주정, 효모, 정제수",
+    "manufacturer": "용두산조은술"
+  },
+  {
+    "liquorName": "당당하리",
+    "percentageOfAlcohol": 15,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국산), 홍마늘(국산), 감초(국산), 효모, 개량누룩, 정제효소제, 정제수, 복분자(국산), 설탕, 올리고당, DL-사과산, 구연산, 무수이황산",
+    "manufacturer": "농업회사법인(주)세찬"
+  },
+  {
+    "liquorName": "마주 소곡주",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 백미, 모싯잎, 우리밀 누룩, 정제수, 효모",
+    "manufacturer": "옥순가 소곡주 마주"
+  },
+  {
+    "liquorName": "여민락주",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제수",
+    "manufacturer": "여주육묘영농조합법인"
+  },
+  {
+    "liquorName": "어우야",
+    "percentageOfAlcohol": 16,
+    "volume": "365ml",
+    "mainIngredient": "야관문(제주산), 정제수, 포도당, 효모",
+    "manufacturer": "왕지케양조장"
+  },
+  {
+    "liquorName": "산내울 사과애주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "사과, 설탕, 주정, 정제수, 과당",
+    "manufacturer": "거창사과원예농협"
+  },
+  {
+    "liquorName": "산내울 복분자주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "복분자, 설탕, 주정, 정제수, 과당",
+    "manufacturer": "거창사과원예농협"
+  },
+  {
+    "liquorName": "르깔롱",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 주정, 고과당, 죽력, 메론후레바, 레이지라임, 코코넛향, 윌튼스카이아이싱칼라",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "녹고의 눈물",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "섬오가피",
+    "manufacturer": "토향"
+  },
+  {
+    "liquorName": "동백꽃, 제주",
+    "percentageOfAlcohol": 16,
+    "volume": "365ml",
+    "mainIngredient": "동백꽃잎, 정제수, 포도당 효모",
+    "manufacturer": "제주본초협동조합 왕지케양조장"
+  },
+  {
+    "liquorName": "꿀샘 16",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 주정, 설탕, 천연꿀, 생강, 구연산",
+    "manufacturer": "농업회사법인 주식회사 술샘"
+  },
+  {
+    "liquorName": "티나(TINA)",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "딸기(국내산)",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "술샘16",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산), 오미자(국내산), 주정, 정백당",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "산내울 오미자주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "오미자, 설탕, 주정, 정제수, 과당",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "주몽복분자주",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 국내산 복분자",
+    "manufacturer": "농업회사법인(유)술소리"
+  },
+  {
+    "liquorName": "신선주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 능금, 신선초, 천궁, 구기자, 당귀솔잎, 대추, 인삼",
+    "manufacturer": "용두산조은술"
+  },
+  {
+    "liquorName": "설련주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "백련, 찹쌀, 멥쌀, 누룩",
+    "manufacturer": "영농조합법인 석전상온전통주가"
+  },
+  {
+    "liquorName": "서주 16%",
+    "percentageOfAlcohol": 16,
+    "volume": "400ml",
+    "mainIngredient": "백미(국내산), 감자(국내산), 누룩, 효모, 정제수",
+    "manufacturer": "오대서주양조"
+  },
+  {
+    "liquorName": "경주교동법주",
+    "percentageOfAlcohol": 16,
+    "volume": "900ml",
+    "mainIngredient": "찹쌀(국내산)",
+    "manufacturer": "교동법주"
+  },
+  {
+    "liquorName": "김천과하주 16%",
+    "percentageOfAlcohol": 16,
+    "volume": "700ml",
+    "mainIngredient": "국내산 찹쌀",
+    "manufacturer": "김천과하주"
+  },
+  {
+    "liquorName": "해남진양주",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀(해남)",
+    "manufacturer": "해남진양주"
+  },
+  {
+    "liquorName": "모월 청",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "모월"
+  },
+  {
+    "liquorName": "내장산 복분자주 지통1호",
+    "percentageOfAlcohol": 16,
+    "volume": "700ml",
+    "mainIngredient": "복분자, 주정, 정제수, 설탕 등",
+    "manufacturer": "내장산 복분자 영농조합"
+  },
+  {
+    "liquorName": "동짓달 기나긴 밤",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 맵쌀, 복분자, 전통누룩, 정제수",
+    "manufacturer": "예술주조"
+  },
+  {
+    "liquorName": "원조소곡주",
+    "percentageOfAlcohol": 16,
+    "volume": "720ml",
+    "mainIngredient": "찹쌀(36%), 누룩(3%)",
+    "manufacturer": "원조소곡주"
+  },
+  {
+    "liquorName": "천비향 오양주 약주",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 누룩",
+    "manufacturer": "좋은술"
+  },
+  {
+    "liquorName": "청진주",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "찹쌀, 누룩, 정제수",
+    "manufacturer": "전통주연구개발원"
+  },
+  {
+    "liquorName": "오메기 맑은술",
+    "percentageOfAlcohol": 16,
+    "volume": "500ml",
+    "mainIngredient": "좁쌀, 햅쌀, 정제수, 누룩",
+    "manufacturer": "제주고소리술익는집"
+  },
+  {
+    "liquorName": "청양둔송구기주",
+    "percentageOfAlcohol": 16,
+    "volume": "700ml",
+    "mainIngredient": "쌀, 누룩, 구기자, 감초, 두충껍질",
+    "manufacturer": "청양둔송구기주"
+  },
+  {
+    "liquorName": "예담은 한산소곡주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀, 멥쌀, 누룩, 대두, 구절초",
+    "manufacturer": "한산예담은소곡주"
+  },
+  {
+    "liquorName": "무주구천동산머루주",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml, 360ml",
+    "mainIngredient": "머루",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "선운산 복분자주",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "복분자(고창산), 과당, 구연산, 아스파탐, 무수아황산",
+    "manufacturer": "(주)선운산복분자주 흥진"
+  },
+  {
+    "liquorName": "복분자주 360",
+    "percentageOfAlcohol": 16,
+    "volume": "360ml",
+    "mainIngredient": "복분자, 주정, 정제수, 설탕 등",
+    "manufacturer": "내장산 복분자 영농조합"
+  },
+  {
+    "liquorName": "명가원 복분자술",
+    "percentageOfAlcohol": 16,
+    "volume": "750ml",
+    "mainIngredient": "복분자(37.65%), 주정, 정제수, 구연산, 호박산, 정제식염, 액상과당, 효모, 설탕",
+    "manufacturer": "명가원"
+  },
+  {
+    "liquorName": "대관령 복분자주",
+    "percentageOfAlcohol": 16,
+    "volume": "400ml",
+    "mainIngredient": "국내산 복분자",
+    "manufacturer": "홍지원"
+  },
+  {
+    "liquorName": "경산대추약주 추",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "찹쌀, 맵쌀 , 누룩, 대추 (국내산100%)",
+    "manufacturer": "미송주가"
+  },
+  {
+    "liquorName": "장수 오미자주",
+    "percentageOfAlcohol": 16.5,
+    "volume": "360ml",
+    "mainIngredient": "오미자(국내산), 정제수, 주정, 설탕, 효모",
+    "manufacturer": "알에프"
+  },
+  {
+    "liquorName": "밤빛머루",
+    "percentageOfAlcohol": 16.9,
+    "volume": "360ml",
+    "mainIngredient": "무주 머루",
+    "manufacturer": "농업회사법인 산들벗(주)"
+  },
+  {
+    "liquorName": "느린마을 증류주",
+    "percentageOfAlcohol": 16.9,
+    "volume": "360ml",
+    "mainIngredient": "쌀(국내산)",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "아이엠더문",
+    "percentageOfAlcohol": 17,
+    "volume": "750ml",
+    "mainIngredient": "사과(국내산), 포도(국내산), 딸기(국내산), 블러드 오렌지, 망고 농축액, 증류식 소주원액",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "청명주",
+    "percentageOfAlcohol": 17,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "중원당"
+  },
+  {
+    "liquorName": "하향주",
+    "percentageOfAlcohol": 17,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀",
+    "manufacturer": "하향주가"
+  },
+  {
+    "liquorName": "지란지교",
+    "percentageOfAlcohol": 17,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀,멥쌀,전통누룩(밀),정제수",
+    "manufacturer": "(유)친구들의 술 지란지교"
+  },
+  {
+    "liquorName": "아황주",
+    "percentageOfAlcohol": 17,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 멥쌀, 누룩, 정제수",
+    "manufacturer": "최행숙전통주가"
+  },
+  {
+    "liquorName": "청명주 750",
+    "percentageOfAlcohol": 17,
+    "volume": "750ml",
+    "mainIngredient": "찹쌀,누룩,소맥분",
+    "manufacturer": "중원당"
+  },
+  {
+    "liquorName": "동몽",
+    "percentageOfAlcohol": 17,
+    "volume": "500ml",
+    "mainIngredient": "홍천 쌀, 정제수, 단호박, 국(밀 누룩)",
+    "manufacturer": "예술주조"
+  },
+  {
+    "liquorName": "안동소주 일품 17도",
+    "percentageOfAlcohol": 17,
+    "volume": "350ml",
+    "mainIngredient": "국내산 쌀, 입국",
+    "manufacturer": "안동소주일품"
+  },
+  {
+    "liquorName": "명랑 스컬",
+    "percentageOfAlcohol": 17,
+    "volume": "375ml",
+    "mainIngredient": "매실증류주원액, 벌꿀, 포도당, 노간주나무열매, 정제수",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "별바랑",
+    "percentageOfAlcohol": 17.5,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 멥쌀, 누룩, 정제수",
+    "manufacturer": "금계당"
+  },
+  {
+    "liquorName": "자연송이주",
+    "percentageOfAlcohol": 18,
+    "volume": "720ml",
+    "mainIngredient": "자연송이버섯",
+    "manufacturer": "솔래원"
+  },
+  {
+    "liquorName": "이상헌 약주",
+    "percentageOfAlcohol": 18,
+    "volume": "500ml",
+    "mainIngredient": "아산쌀, 국(국내산 밀누룩), 정제수",
+    "manufacturer": "이가수불"
+  },
+  {
+    "liquorName": "한산소곡주",
+    "percentageOfAlcohol": 18,
+    "volume": "700ml, 1800ml",
+    "mainIngredient": "찹쌀, 국내산 멥쌀",
+    "manufacturer": "한산소곡주"
+  },
+  {
+    "liquorName": "청세주",
+    "percentageOfAlcohol": 18,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "병영주조장"
+  },
+  {
+    "liquorName": "노미",
+    "percentageOfAlcohol": 18,
+    "volume": "700ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 쌀",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "면천두견주 900",
+    "percentageOfAlcohol": 18,
+    "volume": "900ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 진달래꽃",
+    "manufacturer": "면천두견주"
+  },
+  {
+    "liquorName": "면천두견주 700",
+    "percentageOfAlcohol": 18,
+    "volume": "700ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 진달래꽃",
+    "manufacturer": "면천두견주"
+  },
+  {
+    "liquorName": "면천두견주 360",
+    "percentageOfAlcohol": 18,
+    "volume": "360ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 진달래꽃",
+    "manufacturer": "면천두견주"
+  },
+  {
+    "liquorName": "사시통음주",
+    "percentageOfAlcohol": 18,
+    "volume": "550ml",
+    "mainIngredient": "쌀, 누룩, 밀가루",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "면천두견주",
+    "percentageOfAlcohol": 18,
+    "volume": "360ml, 700ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 국내산 진달래꽃",
+    "manufacturer": "㈜면천두견주"
+  },
+  {
+    "liquorName": "남산애 포트와인",
+    "percentageOfAlcohol": 18.5,
+    "volume": "750ml",
+    "mainIngredient": "포도(캠벨얼리, MBA, 산머루)",
+    "manufacturer": "예인화원"
+  },
+  {
+    "liquorName": "해방주",
+    "percentageOfAlcohol": 18.8,
+    "volume": "375ml",
+    "mainIngredient": "해방풍연한잎(국내산)",
+    "manufacturer": "농업회사법인영덕주조"
+  },
+  {
+    "liquorName": "모리",
+    "percentageOfAlcohol": 19,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 보리증류원액",
+    "manufacturer": "강산명주"
+  },
+  {
+    "liquorName": "술샘19",
+    "percentageOfAlcohol": 19,
+    "volume": "375ml",
+    "mainIngredient": "주정, 증류식소주, 정백당, 생강, 강황(국내산)",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "선운산 복분자주 프리미엄",
+    "percentageOfAlcohol": 19,
+    "volume": "700ml",
+    "mainIngredient": "복분자(고창산), 과당, 구연산, 아스파탐, 무수아황산",
+    "manufacturer": "(주)선운산복분자주 흥진"
+  },
+  {
+    "liquorName": "느낌 19.8",
+    "percentageOfAlcohol": 19.8,
+    "volume": "360ml",
+    "mainIngredient": "국내산 백미, 누룩, 효모, 정제수",
+    "manufacturer": "명품 안동소주"
+  },
+  {
+    "liquorName": "동강더덕주",
+    "percentageOfAlcohol": 20,
+    "volume": "360ml",
+    "mainIngredient": "더덕, 대추구기자, 감초, 원지",
+    "manufacturer": "영월더덕영농조합법인"
+  },
+  {
+    "liquorName": "호담 300ml",
+    "percentageOfAlcohol": 20,
+    "volume": "300ml",
+    "mainIngredient": "산양산삼, 정제수, 주정",
+    "manufacturer": "대농바이오우리산삼"
+  },
+  {
+    "liquorName": "산삼가득 명술",
+    "percentageOfAlcohol": 20,
+    "volume": "375ml",
+    "mainIngredient": "국내산 주정, 국내산 산양산삼 5년근",
+    "manufacturer": "대농바이오우리산삼"
+  },
+  {
+    "liquorName": "원매 프리미엄",
+    "percentageOfAlcohol": 20,
+    "volume": "700ml",
+    "mainIngredient": "국내산 황매실",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "경성과하주",
+    "percentageOfAlcohol": 20,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 누룩, 증류원액",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "술아 순곡주",
+    "percentageOfAlcohol": 20,
+    "volume": "375ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 증류주, 정제수",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "원매 프리미엄",
+    "percentageOfAlcohol": 20,
+    "volume": "700ml",
+    "mainIngredient": "매실",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "원매",
+    "percentageOfAlcohol": 20,
+    "volume": "750ml",
+    "mainIngredient": "매실원주액, 매실청, 꿀, 카라멜, 효소처리스테비아, 정제수",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "계룡산 산삼주 금수강산 21%",
+    "percentageOfAlcohol": 21,
+    "volume": "740ml",
+    "mainIngredient": "산양산삼, 정제수, 주정",
+    "manufacturer": "한국산삼"
+  },
+  {
+    "liquorName": "느린마을소주21",
+    "percentageOfAlcohol": 21,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 정제수, 입국, 조효소제, 건조효모",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "안동소주 일품 21도",
+    "percentageOfAlcohol": 21,
+    "volume": "350ml",
+    "mainIngredient": "국내산 쌀, 입국",
+    "manufacturer": "안동소주일품"
+  },
+  {
+    "liquorName": "진맥소주 22%",
+    "percentageOfAlcohol": 22,
+    "volume": "375ml",
+    "mainIngredient": "유기농 우리밀 100%",
+    "manufacturer": "농업회사법인 (주)밀과노닐다"
+  },
+  {
+    "liquorName": "이도 22",
+    "percentageOfAlcohol": 22,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산)",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "명인 안동소주 22%",
+    "percentageOfAlcohol": 22,
+    "volume": "360ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "연천 우주",
+    "percentageOfAlcohol": 22,
+    "volume": "360ml",
+    "mainIngredient": "쌀(국내산), 누룩, 효모, 효소, 연천율무, 정제수",
+    "manufacturer": "농업회사법인 연천양조(주)"
+  },
+  {
+    "liquorName": "혼",
+    "percentageOfAlcohol": 22,
+    "volume": "375ml",
+    "mainIngredient": "문경사과(국내산)",
+    "manufacturer": "오미나라"
+  },
+  {
+    "liquorName": "과하주23",
+    "percentageOfAlcohol": 23,
+    "volume": "400ml, 700ml, 1000ml",
+    "mainIngredient": "쌀 100%",
+    "manufacturer": "김천과하주"
+  },
+  {
+    "liquorName": "토끼 소주",
+    "percentageOfAlcohol": 23,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 찹쌀, 누룩, 효모, 효소제\\",
+    "manufacturer": "농업회사법인 토끼소주㈜"
+  },
+  {
+    "liquorName": "감이슬",
+    "percentageOfAlcohol": 23,
+    "volume": "375ml",
+    "mainIngredient": "국내산 감",
+    "manufacturer": "양촌감영농조합법인"
+  },
+  {
+    "liquorName": "대장부23",
+    "percentageOfAlcohol": 23,
+    "volume": "375ml",
+    "mainIngredient": "정제수, 쌀, 효모, 종국, 보리",
+    "manufacturer": "롯데칠성음료"
+  },
+  {
+    "liquorName": "예천주 사월24",
+    "percentageOfAlcohol": 24,
+    "volume": "375ml",
+    "mainIngredient": "오미자(국내산)증류원액, 건오미자(국내산)추출액, 정제수",
+    "manufacturer": "농업회사법인(주)착한농부"
+  },
+  {
+    "liquorName": "미상25",
+    "percentageOfAlcohol": 25,
+    "volume": "350ml",
+    "mainIngredient": "감귤(제주산)증류주원액, 정제수, 스테비올배당제",
+    "manufacturer": "시트러스"
+  },
+  {
+    "liquorName": "이강주 2호",
+    "percentageOfAlcohol": 25,
+    "volume": "750ml",
+    "mainIngredient": "쌀, 소맥분, 정맥, 배, 생강, 계피, 울금, 꿀",
+    "manufacturer": "전주 이강주"
+  },
+  {
+    "liquorName": "서울의 밤",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml",
+    "mainIngredient": "매실증류주원액, 벌꿀, 포도당, 노간주나무열매, 정제수",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "진쾌남",
+    "percentageOfAlcohol": 25,
+    "volume": "330ml",
+    "mainIngredient": "국내산 쌀, 밤, 누룩, 구기자, 오미자, 산수유, 오가피, 동충하초, 정제수",
+    "manufacturer": "사곡양조장"
+  },
+  {
+    "liquorName": "장수홍삼주",
+    "percentageOfAlcohol": 25,
+    "volume": "750ml",
+    "mainIngredient": "국내산 인삼",
+    "manufacturer": "경원리큐르"
+  },
+  {
+    "liquorName": "왕율주",
+    "percentageOfAlcohol": 25,
+    "volume": "330ml",
+    "mainIngredient": "국내산 쌀, 밤, 누룩, 정제수",
+    "manufacturer": "사곡양조원"
+  },
+  {
+    "liquorName": "화주",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 홍삼농축액, 정제수",
+    "manufacturer": "내국양조"
+  },
+  {
+    "liquorName": "문배술 헤리티지 25도",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml",
+    "mainIngredient": "메조, 찰수수, 쌀",
+    "manufacturer": "문배주양조원"
+  },
+  {
+    "liquorName": "추성주",
+    "percentageOfAlcohol": 25,
+    "volume": "350ml",
+    "mainIngredient": "국내산 쌀, 국내산 한약재",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "담양 죽력고",
+    "percentageOfAlcohol": 25,
+    "volume": "350ml",
+    "mainIngredient": "정제수, 국내산 쌀, 누룩, 죽력, 계피, 석창포, 생강, 효모",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "귀감",
+    "percentageOfAlcohol": 25,
+    "volume": "350ml",
+    "mainIngredient": "제주산 감귤과즙, 백설탕, 액상효모, 스테비올배당체, 무수아황산",
+    "manufacturer": "시트러스"
+  },
+  {
+    "liquorName": "겨울소주 25",
+    "percentageOfAlcohol": 25,
+    "volume": "360ml",
+    "mainIngredient": "국내산 쌀, 증류원액, 효모, 효소, 정제수",
+    "manufacturer": "두이술공방"
+  },
+  {
+    "liquorName": "감아락 25",
+    "percentageOfAlcohol": 25,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 감증류원액",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "백제한산군주",
+    "percentageOfAlcohol": 25,
+    "volume": "250ml",
+    "mainIngredient": "찹쌀, 물, 멥쌀, 주정, 효모, 홍고추, 구절초, 과당, 소금, 스테비아",
+    "manufacturer": "㈜백제명가주조"
+  },
+  {
+    "liquorName": "문경바람 백자 25",
+    "percentageOfAlcohol": 25,
+    "volume": "750ml",
+    "mainIngredient": "사과",
+    "manufacturer": "제이엘"
+  },
+  {
+    "liquorName": "필",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml",
+    "mainIngredient": "고구마증류원액(여주산 100%)",
+    "manufacturer": "술아원"
+  },
+  {
+    "liquorName": "려",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml, 500ml",
+    "mainIngredient": "고구마(여주산 100%), 쌀(여주산 100%)",
+    "manufacturer": "국순당"
+  },
+  {
+    "liquorName": "모월 로",
+    "percentageOfAlcohol": 25,
+    "volume": "500ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "모월로미니",
+    "percentageOfAlcohol": 25,
+    "volume": "150ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "설궁",
+    "percentageOfAlcohol": 30,
+    "volume": "700ml",
+    "mainIngredient": "자연산 송이버섯, 산양산삼, 토종벌꿀",
+    "manufacturer": "솔래원"
+  },
+  {
+    "liquorName": "톡 한잔 소주",
+    "percentageOfAlcohol": 30,
+    "volume": "500ml",
+    "mainIngredient": "국내산 보리, 쌀",
+    "manufacturer": "(농)(유)대마주조"
+  },
+  {
+    "liquorName": "느낌 30",
+    "percentageOfAlcohol": 30,
+    "volume": "360ml",
+    "mainIngredient": "국내산 백미, 누룩, 효모, 정제수",
+    "manufacturer": "명품 안동소주"
+  },
+  {
+    "liquorName": "천매",
+    "percentageOfAlcohol": 30,
+    "volume": "600ml",
+    "mainIngredient": "매실",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "죽력고",
+    "percentageOfAlcohol": 32,
+    "volume": "700ml",
+    "mainIngredient": "국내산쌀, 죽력, 누룩, 정제수",
+    "manufacturer": "태인합동주조장"
+  },
+  {
+    "liquorName": "두레앙 브랜디",
+    "percentageOfAlcohol": 35,
+    "volume": "750ml",
+    "mainIngredient": "거봉포도원액",
+    "manufacturer": "두레양조"
+  },
+  {
+    "liquorName": "한비 유자술",
+    "percentageOfAlcohol": 35,
+    "volume": "750ml",
+    "mainIngredient": "쌀(국내산), 유자(국내산)",
+    "manufacturer": "제천한약(영)"
+  },
+  {
+    "liquorName": "한비 무병장수술",
+    "percentageOfAlcohol": 35,
+    "volume": "375ml, 750ml",
+    "mainIngredient": "국내산쌀, 흑삼, 인삼, 오가피, 오미자, 구기자, 복분자, 차전자, 토사자, 산수유",
+    "manufacturer": "제천한약(영)"
+  },
+  {
+    "liquorName": "한비 동충하초술",
+    "percentageOfAlcohol": 35,
+    "volume": "375ml, 750ml",
+    "mainIngredient": "국내산 쌀, 누룩, 가시오가피 뿌리, 동충하초, 정제수",
+    "manufacturer": "제천한약(영)"
+  },
+  {
+    "liquorName": "한비오가피술골드",
+    "percentageOfAlcohol": 35,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 국내산 오가피",
+    "manufacturer": "제천한약(영)"
+  },
+  {
+    "liquorName": "한주",
+    "percentageOfAlcohol": 35,
+    "volume": "360ml",
+    "mainIngredient": "국내산 쌀, 밀누룩, 정제수",
+    "manufacturer": "한주양조"
+  },
+  {
+    "liquorName": "한비 오가피술",
+    "percentageOfAlcohol": 35,
+    "volume": "375ml, 750ml",
+    "mainIngredient": "국내산 쌀, 누룩, 가시오가피 뿌리, 정제수",
+    "manufacturer": "제천한약영농조합법인"
+  },
+  {
+    "liquorName": "두레앙증류주",
+    "percentageOfAlcohol": 35,
+    "volume": "750ml",
+    "mainIngredient": "거봉포도",
+    "manufacturer": "두레양조"
+  },
+  {
+    "liquorName": "금휘",
+    "percentageOfAlcohol": 35,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 황기, 금나노화된 황금물",
+    "manufacturer": "용두산조은술(영)"
+  },
+  {
+    "liquorName": "두레앙",
+    "percentageOfAlcohol": 35,
+    "volume": "750ml",
+    "mainIngredient": "국내산 포도",
+    "manufacturer": "두레양조"
+  },
+  {
+    "liquorName": "백이주",
+    "percentageOfAlcohol": 35,
+    "volume": "800ml",
+    "mainIngredient": "쌀(국산), 홍마늘액(국산), 감초(국산), 개량누룩(국산), 효모, 정제효소제, 정제수, 밀함유",
+    "manufacturer": "농업회사법인(주)세찬"
+  },
+  {
+    "liquorName": "예천주 사월365",
+    "percentageOfAlcohol": 36.5,
+    "volume": "375ml",
+    "mainIngredient": "오미자(국내산)증류원액, 건오미자(국내산)추출액, 정제수",
+    "manufacturer": "농업회사법인(주)착한농부"
+  },
+  {
+    "liquorName": "송화백일주",
+    "percentageOfAlcohol": 38,
+    "volume": "700ml",
+    "mainIngredient": "송화, 솔잎, 산수유, 오미자, 구기자",
+    "manufacturer": "송화양조원"
+  },
+  {
+    "liquorName": "명품홍주",
+    "percentageOfAlcohol": 38,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 지초",
+    "manufacturer": "대대로영농조합법인"
+  },
+  {
+    "liquorName": "병영설성사또",
+    "percentageOfAlcohol": 40,
+    "volume": "750ml",
+    "mainIngredient": "국내산 쌀, 국내산 오디, 국내산 복분자",
+    "manufacturer": "병영주조장"
+  },
+  {
+    "liquorName": "남한산성소주",
+    "percentageOfAlcohol": 40,
+    "volume": "400ml",
+    "mainIngredient": "쌀, 엿, 누룩",
+    "manufacturer": "남한산성소주"
+  },
+  {
+    "liquorName": "진도홍주, 만홍",
+    "percentageOfAlcohol": 40,
+    "volume": "400ml, 500ml",
+    "mainIngredient": "국내산 쌀, 국내산 지초",
+    "manufacturer": "대대로영농조합법인"
+  },
+  {
+    "liquorName": "문배술",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml, 1000ml",
+    "mainIngredient": "국내산 찰수수, 국내산 메조",
+    "manufacturer": "문배주양조원"
+  },
+  {
+    "liquorName": "천지향 증류주",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "국내산 복분자",
+    "manufacturer": "함평천지복분자(영)"
+  },
+  {
+    "liquorName": "감홍로",
+    "percentageOfAlcohol": 40,
+    "volume": "400ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "감홍로"
+  },
+  {
+    "liquorName": "의림소주",
+    "percentageOfAlcohol": 40,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "제천한약(영)"
+  },
+  {
+    "liquorName": "진도홍주 루비콘",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 누룩, 지초, 정제수",
+    "manufacturer": "대대로영농조합법인"
+  },
+  {
+    "liquorName": "금과 명주",
+    "percentageOfAlcohol": 40,
+    "volume": "750ml",
+    "mainIngredient": "사과증류주, 고과당, 사과향, 카라멜",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "예천주복 만월40",
+    "percentageOfAlcohol": 40,
+    "volume": "350ml",
+    "mainIngredient": "복분자증류원액, 복분자과즙, 정제수",
+    "manufacturer": "착한농부"
+  },
+  {
+    "liquorName": "진맥 소주",
+    "percentageOfAlcohol": 40,
+    "volume": "200ml",
+    "mainIngredient": "통밀 소주원액",
+    "manufacturer": "맹개술도가"
+  },
+  {
+    "liquorName": "제주낭만",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 백도라지",
+    "manufacturer": "술도가제주바당"
+  },
+  {
+    "liquorName": "키위술",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "그린키위, 골드키위",
+    "manufacturer": "술도가제주바당"
+  },
+  {
+    "liquorName": "담솔",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml, 750ml",
+    "mainIngredient": "백미(함양산) 90%, 솔잎·송순(함양산) 10%",
+    "manufacturer": "솔송주(명가원)"
+  },
+  {
+    "liquorName": "오매락퍽",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "국내산 배증류원액",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "천비향 화주",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml",
+    "mainIngredient": "국내산 쌀, 누룩",
+    "manufacturer": "좋은술"
+  },
+  {
+    "liquorName": "계룡산 산삼주 금수강산 40%",
+    "percentageOfAlcohol": 40,
+    "volume": "740ml",
+    "mainIngredient": "산양산삼, 정제수, 주정",
+    "manufacturer": "한국산삼"
+  },
+  {
+    "liquorName": "한비 쌀소주",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml, 750ml",
+    "mainIngredient": "국내산 쌀, 누룩, 정제수",
+    "manufacturer": "제천한약영농조합법인"
+  },
+  {
+    "liquorName": "문경바람 오크",
+    "percentageOfAlcohol": 40,
+    "volume": "750ml, 375ml",
+    "mainIngredient": "사과(문경)",
+    "manufacturer": "오미나라"
+  },
+  {
+    "liquorName": "추사40",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "사과",
+    "manufacturer": "예산사과와인"
+  },
+  {
+    "liquorName": "징기스칸",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml",
+    "mainIngredient": "레드와인",
+    "manufacturer": "고도리 와이너리"
+  },
+  {
+    "liquorName": "로아40 옐로우",
+    "percentageOfAlcohol": 40,
+    "volume": "350ml",
+    "mainIngredient": "쌀(국산), 배(국산)",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "오매락",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "배를 증류한 원액, 정제수, 설탕, 매실, 오매(구운 매실)",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "제주술익는집 고소리술",
+    "percentageOfAlcohol": 40,
+    "volume": "400ml",
+    "mainIngredient": "잡곡, 누룩, 정제수",
+    "manufacturer": "제주고소리술익는집"
+  },
+  {
+    "liquorName": "문배술 헤리티지 40도",
+    "percentageOfAlcohol": 40,
+    "volume": "200ml",
+    "mainIngredient": "메조, 찰수수, 쌀",
+    "manufacturer": "문배주양조원"
+  },
+  {
+    "liquorName": "계룡백일주 40%",
+    "percentageOfAlcohol": 40,
+    "volume": "600ml",
+    "mainIngredient": "찹쌀, 백미, 누룩, 재래종국화꽃, 오미자, 진달래, 재래종 솔잎",
+    "manufacturer": "계룡백일주"
+  },
+  {
+    "liquorName": "감홍로 백자",
+    "percentageOfAlcohol": 40,
+    "volume": "400ml, 700ml",
+    "mainIngredient": "쌀(70%), 메조(30%), 용안육, 진피, 생강, 정향, 감초, 지초",
+    "manufacturer": "감홍로"
+  },
+  {
+    "liquorName": "타미앙스",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 국내산 한약재",
+    "manufacturer": "추성고을"
+  },
+  {
+    "liquorName": "막시모 40",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "국내산 오미자 증류원액, 국내산 오미자 원액, 정제수",
+    "manufacturer": "착한농부"
+  },
+  {
+    "liquorName": "고구마 아락",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "정제수, 고구마, 보리",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "예천주복 만월24",
+    "percentageOfAlcohol": 40,
+    "volume": "350ml",
+    "mainIngredient": "복분자(국내산)증류원액, 복분자(국내산)과즙, 정제수",
+    "manufacturer": "농업회사법인(주)착한농부"
+  },
+  {
+    "liquorName": "안동소주 일품 40도 골드",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 입국",
+    "manufacturer": "안동소주일품"
+  },
+  {
+    "liquorName": "설레온",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 누룩, 효모, 정제수",
+    "manufacturer": "농업회사법인 대윤가야곡주조(주)"
+  },
+  {
+    "liquorName": "샤토미소 영동",
+    "percentageOfAlcohol": 40,
+    "volume": "200ml",
+    "mainIngredient": "포도",
+    "manufacturer": "도란원"
+  },
+  {
+    "liquorName": "병영소주",
+    "percentageOfAlcohol": 40,
+    "volume": "700ml",
+    "mainIngredient": "정제수, 보리증류식 소주원액(보리: 국내산)",
+    "manufacturer": "병영양조장"
+  },
+  {
+    "liquorName": "문경바람 백자 40",
+    "percentageOfAlcohol": 40,
+    "volume": "750ml",
+    "mainIngredient": "사과",
+    "manufacturer": "제이엘"
+  },
+  {
+    "liquorName": "배도가 로아 40도 옐로우",
+    "percentageOfAlcohol": 40,
+    "volume": "350ml",
+    "mainIngredient": "국내산 쌀, 국내산 배",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "메밀이슬",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "메밀(제주산), 입국(국내산), 효모, 정제수",
+    "manufacturer": "술도가제주바당"
+  },
+  {
+    "liquorName": "커피냑",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "커피생두, 백설탕, 효모, 정제수, 클로로겐산",
+    "manufacturer": "제주커피수목원"
+  },
+  {
+    "liquorName": "로아40 레드",
+    "percentageOfAlcohol": 40,
+    "volume": "350ml",
+    "mainIngredient": "사과소주원액",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "복분자아락40",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "복분자 증류원액",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "오디아락40",
+    "percentageOfAlcohol": 40,
+    "volume": "500ml",
+    "mainIngredient": "오디증류주원액",
+    "manufacturer": "배상면주가"
+  },
+  {
+    "liquorName": "녹천 소곡화주 500ml",
+    "percentageOfAlcohol": 41,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 누룩, 백미, 정제수",
+    "manufacturer": "녹천주조장"
+  },
+  {
+    "liquorName": "녹천 소곡화주 480ml",
+    "percentageOfAlcohol": 41,
+    "volume": "480ml",
+    "mainIngredient": "찹쌀, 누룩, 백미 , 정제수",
+    "manufacturer": "녹천주조장"
+  },
+  {
+    "liquorName": "마주 소곡화주",
+    "percentageOfAlcohol": 41,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 국내산 백미, 모싯잎, 우리밀 누룩, 정제수, 효모",
+    "manufacturer": "옥순가 소곡주 마주"
+  },
+  {
+    "liquorName": "모월 인",
+    "percentageOfAlcohol": 41,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 정제수, 밀누룩",
+    "manufacturer": "모월"
+  },
+  {
+    "liquorName": "원조 소곡화주",
+    "percentageOfAlcohol": 41,
+    "volume": "300ml",
+    "mainIngredient": "찹쌀, 멥쌀, 누룩",
+    "manufacturer": "원조소곡주"
+  },
+  {
+    "liquorName": "예담은 한산소곡화주",
+    "percentageOfAlcohol": 41,
+    "volume": "500ml",
+    "mainIngredient": "찹쌀, 멥쌀, 누룩, 대두, 구절초",
+    "manufacturer": "한산예담은소곡주"
+  },
+  {
+    "liquorName": "주향담을",
+    "percentageOfAlcohol": 41,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 국, 효모, 정제수",
+    "manufacturer": "농업회사법인 담을"
+  },
+  {
+    "liquorName": "모월인미니",
+    "percentageOfAlcohol": 41,
+    "volume": "150ml",
+    "mainIngredient": "쌀(국내산), 누룩, 정제수",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "유기농 이도 42",
+    "percentageOfAlcohol": 42,
+    "volume": "750ml",
+    "mainIngredient": "유기농쌀 (100%), 정제수, 증류원액, 국, 조제종국, 효모 등",
+    "manufacturer": "조은술 세종"
+  },
+  {
+    "liquorName": "소여강",
+    "percentageOfAlcohol": 42,
+    "volume": "375ml",
+    "mainIngredient": "쌀(경기미), 누룩(국내산), 물(정제수)",
+    "manufacturer": "추연당"
+  },
+  {
+    "liquorName": "금산인삼백주",
+    "percentageOfAlcohol": 43,
+    "volume": "500ml",
+    "mainIngredient": "국내산쌀 95.8%, 국내산 인삼 4.2%",
+    "manufacturer": "㈜금산인삼주"
+  },
+  {
+    "liquorName": "불소곡주",
+    "percentageOfAlcohol": 43,
+    "volume": "700ml",
+    "mainIngredient": "찹쌀, 국내산 멥쌀",
+    "manufacturer": "한산소곡주"
+  },
+  {
+    "liquorName": "금산인삼주 수삼 500",
+    "percentageOfAlcohol": 43,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 국내산 인삼",
+    "manufacturer": "㈜금산인삼주"
+  },
+  {
+    "liquorName": "소나무와 학",
+    "percentageOfAlcohol": 43,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀, 황기",
+    "manufacturer": "용두산조은술(영)"
+  },
+  {
+    "liquorName": "수삼단본 720",
+    "percentageOfAlcohol": 43,
+    "volume": "720ml",
+    "mainIngredient": "국내산 쌀, 국내산 인삼",
+    "manufacturer": "㈜금산인삼주"
+  },
+  {
+    "liquorName": "두리향",
+    "percentageOfAlcohol": 43,
+    "volume": "500ml",
+    "mainIngredient": "국내산 찹쌀, 누룩, 정제수",
+    "manufacturer": "케이소주"
+  },
+  {
+    "liquorName": "수성 프리미엄 백주43",
+    "percentageOfAlcohol": 43,
+    "volume": "500ml",
+    "mainIngredient": "수수, 정제수",
+    "manufacturer": "㈜수성주류"
+  },
+  {
+    "liquorName": "부자진 배치#0001",
+    "percentageOfAlcohol": 44,
+    "volume": "375ml",
+    "mainIngredient": "캐모마일, 라벤더, 레몬 베버나, 노간주나무 열매, 한라봉, 헛개나무, 솔잎,쑥",
+    "manufacturer": "㈜부자진농업회사법인"
+  },
+  {
+    "liquorName": "부자진 오미자 진",
+    "percentageOfAlcohol": 44,
+    "volume": "375ml",
+    "mainIngredient": "솔잎, 쑥, 헛개, 한라봉, 오미자 등",
+    "manufacturer": "(주)부자진농업회사법인"
+  },
+  {
+    "liquorName": "세우리",
+    "percentageOfAlcohol": 45,
+    "volume": "700ml",
+    "mainIngredient": "산양삼, 하수오, 구기자, 쌀",
+    "manufacturer": "제주샘주"
+  },
+  {
+    "liquorName": "명인 안동소주 하회탈",
+    "percentageOfAlcohol": 45,
+    "volume": "800ml",
+    "mainIngredient": "국내산 쌀 100%",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "명인 안동소주",
+    "percentageOfAlcohol": 45,
+    "volume": "800ml",
+    "mainIngredient": "국내산 쌀 100%",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "안동소주",
+    "percentageOfAlcohol": 45,
+    "volume": "400ml, 600ml, 800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "민속주안동소주"
+  },
+  {
+    "liquorName": "로얄 안동소주",
+    "percentageOfAlcohol": 45,
+    "volume": "600ml, 800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "(농)유토피아㈜"
+  },
+  {
+    "liquorName": "명인 안동소주 호리병",
+    "percentageOfAlcohol": 45,
+    "volume": "800ml",
+    "mainIngredient": "국내산 쌀, 누룩, 정제수",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "메밀로",
+    "percentageOfAlcohol": 45,
+    "volume": "500ml",
+    "mainIngredient": "국내산 쌀, 메밀, 누룩, 정제수",
+    "manufacturer": "두루"
+  },
+  {
+    "liquorName": "민속주 안동소주",
+    "percentageOfAlcohol": 45,
+    "volume": "400ml",
+    "mainIngredient": "국내산 쌀, 누룩, 정제수",
+    "manufacturer": "민속주안동소주"
+  },
+  {
+    "liquorName": "명인 안동소주 양반탈",
+    "percentageOfAlcohol": 45,
+    "volume": "800ml",
+    "mainIngredient": "국내산 쌀, 누룩, 정제수",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "삼해소주",
+    "percentageOfAlcohol": 45,
+    "volume": "400ml",
+    "mainIngredient": "멥쌀, 찹쌀, 누룩",
+    "manufacturer": "㈜삼해소주"
+  },
+  {
+    "liquorName": "추사47",
+    "percentageOfAlcohol": 47,
+    "volume": "500ml",
+    "mainIngredient": "예산사과(100%), 효모",
+    "manufacturer": ""
+  },
+  {
+    "liquorName": "송로주",
+    "percentageOfAlcohol": 48,
+    "volume": "700ml",
+    "mainIngredient": "멥쌀, 솔옹이, 솔잎, 복령",
+    "manufacturer": "송로주"
+  },
+  {
+    "liquorName": "강소주",
+    "percentageOfAlcohol": 50,
+    "volume": "200ml, 1800ml",
+    "mainIngredient": "국내산 쌀, 정제수",
+    "manufacturer": "내국양조"
+  },
+  {
+    "liquorName": "신례명주",
+    "percentageOfAlcohol": 50,
+    "volume": "750ml",
+    "mainIngredient": "제주산감귤, 감귤 증류주",
+    "manufacturer": "시트러스"
+  },
+  {
+    "liquorName": "고운달 백자",
+    "percentageOfAlcohol": 52,
+    "volume": "500ml",
+    "mainIngredient": "오미자(문경산)",
+    "manufacturer": "오미나라"
+  },
+  {
+    "liquorName": "고운달 오크",
+    "percentageOfAlcohol": 52,
+    "volume": "500ml",
+    "mainIngredient": "오미자(문경산)",
+    "manufacturer": "오미나라"
+  },
+  {
+    "liquorName": "이상헌 소주",
+    "percentageOfAlcohol": 52,
+    "volume": "500ml",
+    "mainIngredient": "증류소주원액",
+    "manufacturer": "농업회사법인 이가수불㈜"
+  },
+  {
+    "liquorName": "예술주조 `무작`",
+    "percentageOfAlcohol": 53,
+    "volume": "350ml",
+    "mainIngredient": "홍천쌀, 밀누룩, 정제수",
+    "manufacturer": "예술주조"
+  },
+  {
+    "liquorName": "독산 53",
+    "percentageOfAlcohol": 53,
+    "volume": "250ml",
+    "mainIngredient": "국내산 쌀, 누룩, 효모, 정제수",
+    "manufacturer": "오산양조"
+  },
+  {
+    "liquorName": "이담",
+    "percentageOfAlcohol": 55,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀, 국내산 배",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "주향아라",
+    "percentageOfAlcohol": 55,
+    "volume": "500ml",
+    "mainIngredient": "쌀, 국, 효모, 정제수",
+    "manufacturer": "농업회사법인 담을"
+  },
+  {
+    "liquorName": "부자",
+    "percentageOfAlcohol": 10,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 정제수, 고과당, 효모 등",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "부자",
+    "percentageOfAlcohol": 13,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 정제수, 고과당, 효모 등",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "부자",
+    "percentageOfAlcohol": 16,
+    "volume": "375ml",
+    "mainIngredient": "쌀, 정제수, 고과당, 효모 등",
+    "manufacturer": "배혜정도가"
+  },
+  {
+    "liquorName": "매실원주 허니",
+    "percentageOfAlcohol": 13,
+    "volume": "300ml",
+    "mainIngredient": "국내산 황매  80%, 청매20%",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "매실원주 허니",
+    "percentageOfAlcohol": 15,
+    "volume": "300ml",
+    "mainIngredient": "국내산 황매  80%, 청매20%",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "매실원주 허니",
+    "percentageOfAlcohol": 20,
+    "volume": "300ml",
+    "mainIngredient": "국내산 황매  80%, 청매20%",
+    "manufacturer": "더한주류"
+  },
+  {
+    "liquorName": "The 찾을수록",
+    "percentageOfAlcohol": 14,
+    "volume": "360ml",
+    "mainIngredient": "사과와인, 정제수, 정제주정 외 제품별 농축액 (복숭아, 포도, 사과, 감귤, 생강, 커피향 등)",
+    "manufacturer": "㈜한국애플리즈"
+  },
+  {
+    "liquorName": "전주이강주25%, 19%",
+    "percentageOfAlcohol": 19,
+    "volume": "19-375ml, 25-500ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "전주이강주"
+  },
+  {
+    "liquorName": "전주이강주25%, 19%",
+    "percentageOfAlcohol": 25,
+    "volume": "19-375ml, 25-500ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "전주이강주"
+  },
+  {
+    "liquorName": "진심홍삼인삼주 38%, 19%",
+    "percentageOfAlcohol": 19,
+    "volume": "19-375ml, 38-750ml",
+    "mainIngredient": "국내산 쌀, 국내산 지초",
+    "manufacturer": "(농)㈜태평주가"
+  },
+  {
+    "liquorName": "진심홍삼인삼주 38%, 19%",
+    "percentageOfAlcohol": 38,
+    "volume": "19-375ml, 38-750ml",
+    "mainIngredient": "국내산 쌀, 국내산 지초",
+    "manufacturer": "(농)㈜태평주가"
+  },
+  {
+    "liquorName": "명인안동소주 35%, 45%",
+    "percentageOfAlcohol": 22,
+    "volume": "22, 35-360ml, 45-400ml, 600ml, 800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "명인안동소주 35%, 45%",
+    "percentageOfAlcohol": 35,
+    "volume": "22, 35-360ml, 45-400ml, 600ml, 800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "명인안동소주 35%, 45%",
+    "percentageOfAlcohol": 45,
+    "volume": "22, 35-360ml, 45-400ml, 600ml, 800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "명인안동소주"
+  },
+  {
+    "liquorName": "미르",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "미르",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "미르",
+    "percentageOfAlcohol": 54,
+    "volume": "375ml",
+    "mainIngredient": "쌀(국내산 경기미 100%), 누룩, 정제수",
+    "manufacturer": "술샘"
+  },
+  {
+    "liquorName": "풍정사계 동(冬)",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml",
+    "mainIngredient": "찹쌀, 향온곡",
+    "manufacturer": "화양"
+  },
+  {
+    "liquorName": "풍정사계 동(冬)",
+    "percentageOfAlcohol": 45,
+    "volume": "375ml",
+    "mainIngredient": "찹쌀, 향온곡",
+    "manufacturer": "화양"
+  },
+  {
+    "liquorName": "고소리술",
+    "percentageOfAlcohol": 29,
+    "volume": "29-750ml, 40-375ml, 400ml",
+    "mainIngredient": "제주산 좁쌀53%, 국내산 쌀 47%",
+    "manufacturer": "제주샘주"
+  },
+  {
+    "liquorName": "고소리술",
+    "percentageOfAlcohol": 40,
+    "volume": "29-750ml, 40-375ml, 400ml",
+    "mainIngredient": "제주산 좁쌀53%, 국내산 쌀 47%",
+    "manufacturer": "제주샘주"
+  },
+  {
+    "liquorName": "진도홍주 아라리35%, 루비콘40%",
+    "percentageOfAlcohol": 35,
+    "volume": "375ml, 500ml, 700ml",
+    "mainIngredient": "국내산 쌀, 국내산 지초",
+    "manufacturer": "대대로영농조합법인"
+  },
+  {
+    "liquorName": "진도홍주 아라리35%, 루비콘40%",
+    "percentageOfAlcohol": 40,
+    "volume": "375ml, 500ml, 700ml",
+    "mainIngredient": "국내산 쌀, 국내산 지초",
+    "manufacturer": "대대로영농조합법인"
+  },
+  {
+    "liquorName": "한주",
+    "percentageOfAlcohol": 35,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "한주양조"
+  },
+  {
+    "liquorName": "한주",
+    "percentageOfAlcohol": 45,
+    "volume": "700ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "한주양조"
+  },
+  {
+    "liquorName": "포항불로주",
+    "percentageOfAlcohol": 35,
+    "volume": "35-750ml, 45-800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "불로주"
+  },
+  {
+    "liquorName": "포항불로주",
+    "percentageOfAlcohol": 45,
+    "volume": "35-750ml, 45-800ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "불로주"
+  },
+  {
+    "liquorName": "소호",
+    "percentageOfAlcohol": 36.5,
+    "volume": "350ml, 750ml",
+    "mainIngredient": "평택 쌀(발아 현미, 백미), 누룩, 정제수, 대나무잎",
+    "manufacturer": "밝은세상영농조합"
+  },
+  {
+    "liquorName": "소호",
+    "percentageOfAlcohol": 56,
+    "volume": "350ml, 750ml",
+    "mainIngredient": "평택 쌀(발아 현미, 백미), 누룩, 정제수, 대나무잎",
+    "manufacturer": "밝은세상영농조합"
+  },
+  {
+    "liquorName": "화요 41%, 25%, 17%",
+    "percentageOfAlcohol": 17,
+    "volume": "375ml, 500ml, 750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "㈜화요"
+  },
+  {
+    "liquorName": "화요 41%, 25%, 17%",
+    "percentageOfAlcohol": 25,
+    "volume": "375ml, 500ml, 750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "㈜화요"
+  },
+  {
+    "liquorName": "화요 41%, 25%, 17%",
+    "percentageOfAlcohol": 41,
+    "volume": "375ml, 500ml, 750ml",
+    "mainIngredient": "국내산 쌀",
+    "manufacturer": "㈜화요"
+  }
+]
