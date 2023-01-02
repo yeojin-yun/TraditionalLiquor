@@ -8,27 +8,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var liquorData: [TraditionalLiquor]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard
-            let jsonData = load(),
-            let dictData = try? JSONDecoder().decode(TraditionalLiquor.self, from: jsonData) else { return }
-        print(dictData)
+        getPath()
+        
     }
 
-    func load() -> Data? {
-        let name: String = "LiquorList"
-        let extensionType = "json"
+
+    func getPath() {
+        guard let path = Bundle.main.path(forResource: "LiquorList", ofType: "json") else { return }
         
-        guard let fileLocation = Bundle.main.url(forResource: name, withExtension: extensionType) else { return nil }
-        
-        do {
-            let data = try Data(contentsOf: fileLocation)
-            return data
-        } catch {
-            return nil
+        guard let jsonString = try? String(contentsOfFile: path) else { return }
+        let decoder = JSONDecoder()
+        let data = jsonString.data(using: .utf8)
+
+
+        if let data = data, let liquor = try? decoder.decode([TraditionalLiquor].self, from: data) {
+            liquorData = liquor
         }
     }
 }
-
