@@ -12,11 +12,11 @@ class LiquorTableViewCell: UITableViewCell {
     static let identifier = String(describing: LiquorTableViewCell.self)
     
     // 이름, 도수, 용량, 주재료, 제조사
-    private let title: UILabel = UILabel()
-    private let alcohol: UILabel = UILabel()
-    private let volume: UILabel = UILabel()
-    private let mainIngredient: UILabel = UILabel()
-    private let manufacturer: UILabel = UILabel()
+    let title: UILabel = UILabel()
+    let alcohol: UILabel = UILabel()
+    let volume: UILabel = UILabel()
+    let mainIngredient: UILabel = UILabel()
+    let manufacturer: UILabel = UILabel()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
