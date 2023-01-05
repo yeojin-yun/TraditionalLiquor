@@ -12,6 +12,7 @@ class LiquorTableViewCell: UITableViewCell {
     static let identifier = String(describing: LiquorTableViewCell.self)
     
     // 이름, 도수, 용량, 주재료, 제조사
+    let liquorImage: UIImageView = UIImageView()
     let title: UILabel = UILabel()
     let alcohol: UILabel = UILabel()
     let volume: UILabel = UILabel()
@@ -38,7 +39,7 @@ class LiquorTableViewCell: UITableViewCell {
 
 extension LiquorTableViewCell {
     private func setUI() {
-        [title, alcohol, volume, mainIngredient, manufacturer].forEach {
+        [title, alcohol, volume, mainIngredient, manufacturer, liquorImage].forEach {
             contentView.addSubview($0)
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
@@ -46,20 +47,27 @@ extension LiquorTableViewCell {
     
     private func setConstraints() {
         NSLayoutConstraint.activate([
-            title.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
-            title.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
+            liquorImage.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
+            liquorImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
+            liquorImage.widthAnchor.constraint(equalToConstant: 150),
+            liquorImage.heightAnchor.constraint(equalToConstant: 150),
             
-            alcohol.topAnchor.constraint(equalTo: title.bottomAnchor, constant: 20),
-            alcohol.leadingAnchor.constraint(equalTo: title.leadingAnchor),
+            title.topAnchor.constraint(equalTo: liquorImage.topAnchor),
+            title.leadingAnchor.constraint(equalTo: liquorImage.trailingAnchor, constant: 20),
             
-            volume.topAnchor.constraint(equalTo: alcohol.bottomAnchor, constant: 20),
-            volume.leadingAnchor.constraint(equalTo: title.leadingAnchor),
+            alcohol.topAnchor.constraint(equalTo: title.bottomAnchor, constant: 10),
+            alcohol.leadingAnchor.constraint(equalTo: liquorImage.trailingAnchor, constant: 20),
             
-            mainIngredient.topAnchor.constraint(equalTo: volume.bottomAnchor, constant: 20),
-            mainIngredient.leadingAnchor.constraint(equalTo: title.leadingAnchor),
+            volume.topAnchor.constraint(equalTo: alcohol.bottomAnchor, constant: 10),
+            volume.leadingAnchor.constraint(equalTo: liquorImage.trailingAnchor, constant: 20),
             
-            manufacturer.topAnchor.constraint(equalTo: mainIngredient.bottomAnchor, constant: 20),
-            manufacturer.leadingAnchor.constraint(equalTo: title.leadingAnchor),
+            manufacturer.topAnchor.constraint(equalTo: volume.bottomAnchor, constant: 10),
+            manufacturer.leadingAnchor.constraint(equalTo: liquorImage.trailingAnchor, constant: 20),
+            
+            mainIngredient.topAnchor.constraint(equalTo: liquorImage.bottomAnchor, constant: 20),
+            mainIngredient.leadingAnchor.constraint(equalTo: liquorImage.leadingAnchor),
+            mainIngredient.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
+            
         ])
     }
     
@@ -69,5 +77,6 @@ extension LiquorTableViewCell {
         volume.text = "500ml"
         mainIngredient.text = "사과과즙, 보리, 쌀, 홉"
         manufacturer.text = "㈜한국애플리즈"
+        liquorImage.backgroundColor = .blue
     }
 }

@@ -12,7 +12,14 @@ class ViewController: UIViewController {
     
     var liquorData: [TraditionalLiquor]!
     private let tableView: UITableView = UITableView()
-    private let searchBar: UISearchController = UISearchController(searchResultsController: nil)
+    private let searchController: UISearchController = UISearchController(searchResultsController: nil)
+    private var filterdLiquorList: [TraditionalLiquor] = []
+    private var isSearchBarEmpty: Bool {
+        return searchController.searchBar.text?.isEmpty ?? true
+    }
+    private var isFiltering: Bool {
+        return !isSearchBarEmpty && searchController.isActive
+    }
     
     
     override func viewDidLoad() {
@@ -61,24 +68,32 @@ extension ViewController {
     
     private func setNavigation() {
         self.title = "전통주🍹"
-        self.navigationItem.searchController = searchBar
+        self.navigationItem.searchController = searchController
+        self.navigationItem.hidesSearchBarWhenScrolling = false
     }
     
     private func setSearchController() {
-        self.searchBar.searchBar.placeholder = "전통주를 검색하세요"
-        self.searchBar.automaticallyShowsCancelButton = true
-        self.searchBar.obscuresBackgroundDuringPresentation = true
-        self.searchBar.hidesNavigationBarDuringPresentation = false
-        self.searchBar.searchResultsUpdater = self
+        self.searchController.searchBar.placeholder = "전통주를 검색하세요"
+        self.searchController.automaticallyShowsCancelButton = true
+//        self.searchController.obscuresBackgroundDuringPresentation = true
+        self.searchController.hidesNavigationBarDuringPresentation = false
+        self.searchController.searchResultsUpdater = self
     }
 }
 
 //MARK: - SearchController Delegate
 extension ViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        print(#function)
         print(searchController.searchBar.text)
-//        print(searchSuggestion)
+        
+        filterdLiquorList = liquorData.filter({ liquor in
+            return liquor.liquorName.contains(searchController.searchBar.text ?? "")
+        })
+        tableView.reloadData()
+    }
+    
+    func updateSearchResults(for searchController: UISearchController, selecting searchSuggestion: UISearchSuggestion) {
+        print(searchSuggestion.localizedDescription)
     }
     
 }
@@ -86,23 +101,36 @@ extension ViewController: UISearchResultsUpdating {
 //MARK: -Delegate, Data Source
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        if isFiltering {
+            return filterdLiquorList.count
+        }
         return liquorData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let liquor: TraditionalLiquor
         guard let cell = tableView.dequeueReusableCell(withIdentifier: LiquorTableViewCell.identifier, for: indexPath) as? LiquorTableViewCell else { return UITableViewCell() }
-        cell.title.text = liquorData[indexPath.item].liquorName
-        cell.alcohol.text = String(liquorData[indexPath.item].percentageOfAlcohol)
-        cell.volume.text = liquorData[indexPath.item].volume
-        cell.manufacturer.text = liquorData[indexPath.item].manufacturer
-        cell.mainIngredient.text = liquorData[indexPath.item].mainIngredient
+        if isFiltering {
+            liquor = filterdLiquorList[indexPath.row]
+        } else {
+            liquor = liquorData[indexPath.row]
+        }
+        cell.title.text = liquor.liquorName
+        cell.alcohol.text = String(liquor.percentageOfAlcohol)
+        cell.volume.text = liquor.volume
+        cell.manufacturer.text = liquor.manufacturer
+        cell.mainIngredient.text = liquor.mainIngredient
+
         return cell
     }
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        if isFiltering {
+            print(filterdLiquorList[indexPath.row])
+        } else {
+            print(liquorData[indexPath.row])
+        }
     }
     
 }
