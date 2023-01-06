@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    var liquorData: [TraditionalLiquor]!
+    var liquorRawData: [TraditionalLiquor]!
     private let tableView: UITableView = UITableView()
     private let searchController: UISearchController = UISearchController(searchResultsController: nil)
     private var filterdLiquorList: [TraditionalLiquor] = []
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
 
         if let data = data, let liquor = try? decoder.decode([TraditionalLiquor].self, from: data) {
-            liquorData = liquor
+            liquorRawData = liquor
         }
     }
 }
@@ -86,7 +86,7 @@ extension ViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         print(searchController.searchBar.text)
         
-        filterdLiquorList = liquorData.filter({ liquor in
+        filterdLiquorList = liquorRawData.filter({ liquor in
             return liquor.liquorName.contains(searchController.searchBar.text ?? "")
         })
         tableView.reloadData()
@@ -104,7 +104,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         if isFiltering {
             return filterdLiquorList.count
         }
-        return liquorData.count
+        return liquorRawData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -113,14 +113,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         if isFiltering {
             liquor = filterdLiquorList[indexPath.row]
         } else {
-            liquor = liquorData[indexPath.row]
+            liquor = liquorRawData[indexPath.row]
         }
-        cell.title.text = liquor.liquorName
-        cell.alcohol.text = String(liquor.percentageOfAlcohol)
-        cell.volume.text = liquor.volume
-        cell.manufacturer.text = liquor.manufacturer
-        cell.mainIngredient.text = liquor.mainIngredient
-
+        cell.configure(with: liquor)
         return cell
     }
     
@@ -129,7 +124,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         if isFiltering {
             print(filterdLiquorList[indexPath.row])
         } else {
-            print(liquorData[indexPath.row])
+            print(liquorRawData[indexPath.row])
         }
     }
     

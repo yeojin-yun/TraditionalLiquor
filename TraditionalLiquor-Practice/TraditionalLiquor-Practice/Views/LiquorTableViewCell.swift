@@ -23,7 +23,6 @@ class LiquorTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUI()
         setConstraints()
-        setTest()
     }
     
     required init?(coder: NSCoder) {
@@ -71,12 +70,23 @@ extension LiquorTableViewCell {
         ])
     }
     
-    private func setTest() {
-        title.text = "애피소드호프"
-        alcohol.text = "3.5"
-        volume.text = "500ml"
-        mainIngredient.text = "사과과즙, 보리, 쌀, 홉"
-        manufacturer.text = "㈜한국애플리즈"
+    func configure(with data: TraditionalLiquor) {
+        title.text = data.liquorName
+        alcohol.text = String(data.percentageOfAlcohol)
+        volume.text = data.volume
+        mainIngredient.text = data.mainIngredient
+        manufacturer.text = data.manufacturer
         liquorImage.backgroundColor = .blue
+    }
+    
+    func setImage(with name: String, completion: @escaping (Result<Results, NetworkError>) -> Void) {
+        guard let url = URL(string:"https://openapi.naver.com/v1/search/encyc.json?") else { return }
+        let session = URLSession(configuration: .default)
+        let task = session.dataTask(with: url) { data, response, error in
+            if error != nil {
+                completion(.)
+            }
+        }
+                
     }
 }
