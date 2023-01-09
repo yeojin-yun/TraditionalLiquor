@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         setBasics()
         setNavigation()
         setSearchController()
+        
+
     }
 
 
@@ -43,6 +45,10 @@ class ViewController: UIViewController {
         if let data = data, let liquor = try? decoder.decode([TraditionalLiquor].self, from: data) {
             liquorRawData = liquor
         }
+        
+//        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
+//            print(result)
+//        }
     }
 }
 
@@ -116,15 +122,34 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             liquor = liquorRawData[indexPath.row]
         }
         cell.configure(with: liquor)
+        fetchImgae(title: liquor.liquorName, indexPath: indexPath)
         return cell
     }
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if isFiltering {
-            print(filterdLiquorList[indexPath.row])
+//            print(filterdLiquorList[indexPath.row])
+            
+            
         } else {
-            print(liquorRawData[indexPath.row])
+           
+//            print(liquorRawData[indexPath.row])
+        }
+    }
+    
+    func fetchImgae(title: String, indexPath: IndexPath) {
+        NetworkManager.shared.fetchImage(title: title, display: 1) { result in
+            switch result {
+            case .success(let value):
+                if value.count == 0 {
+                    print("nil")
+                } else {
+                    print(value[0].title)
+                }
+            case .failure(let failure):
+                print(failure.localizedDescription)
+            }
         }
     }
     

@@ -11,6 +11,8 @@ class LiquorTableViewCell: UITableViewCell {
     
     static let identifier = String(describing: LiquorTableViewCell.self)
     
+    let networkManager = NetworkManager.shared
+    
     // 이름, 도수, 용량, 주재료, 제조사
     let liquorImage: UIImageView = UIImageView()
     let title: UILabel = UILabel()
@@ -23,6 +25,7 @@ class LiquorTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUI()
         setConstraints()
+        
     }
     
     required init?(coder: NSCoder) {
@@ -77,16 +80,13 @@ extension LiquorTableViewCell {
         mainIngredient.text = data.mainIngredient
         manufacturer.text = data.manufacturer
         liquorImage.backgroundColor = .blue
+        
+
     }
     
-    func setImage(with name: String, completion: @escaping (Result<Results, NetworkError>) -> Void) {
-        guard let url = URL(string:"https://openapi.naver.com/v1/search/encyc.json?") else { return }
-        let session = URLSession(configuration: .default)
-        let task = session.dataTask(with: url) { data, response, error in
-            if error != nil {
-                completion(.)
-            }
-        }
-                
+    func setImage() {
+        
     }
+ 
+
 }
