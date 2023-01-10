@@ -21,6 +21,13 @@ class LiquorTableViewCell: UITableViewCell {
     let mainIngredient: UILabel = UILabel()
     let manufacturer: UILabel = UILabel()
     
+    var imageURL: String? {
+        didSet {
+            print(imageURL)
+            loadImage()
+        }
+    }
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUI()
@@ -80,12 +87,42 @@ extension LiquorTableViewCell {
         mainIngredient.text = data.mainIngredient
         manufacturer.text = data.manufacturer
         liquorImage.backgroundColor = .blue
-        
-
+        fetchImgae(title: data.liquorName)
     }
     
-    func setImage() {
+    func fetchImgae(title: String) {
+        NetworkManager.shared.fetchImage(title: title, display: 1) { result in
+            switch result {
+            case .success(let value):
+                if value.count == 0 {
+                    print("nil")
+                } else {
+                    
+                    self.imageURL = value[0].thumbnail
+                }
+            case .failure(let failure):
+                print(failure.localizedDescription)
+            }
+        }
+    }
+    
+    
+    func loadImage() {
+        guard let urlString = imageURL, let url = URL(string: urlString)  else { return }
         
+        // 오래걸리는 작업을 동시성 처리 (다른 쓰레드에서 일시킴)
+        DispatchQueue.global().async {
+            // URL을 가지고 데이터를 만드는 메서드 (오래걸리는데 동기적인 실행)
+            // (일반적으로 이미지를 가져올때 많이 사용)
+            guard let data = try? Data(contentsOf: url) else { return }
+            // 오래걸리는 작업이 일어나고 있는 동안에 url이 바뀔 가능성 제거 ⭐️⭐️⭐️
+            guard urlString == url.absoluteString else { return }
+            
+            // 작업의 결과물을 이미로 표시 (메인큐)
+            DispatchQueue.main.async {
+                self.liquorImage.image = UIImage(data: data)
+            }
+        }
     }
  
 
