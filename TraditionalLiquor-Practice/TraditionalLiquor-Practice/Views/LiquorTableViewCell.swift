@@ -23,7 +23,7 @@ class LiquorTableViewCell: UITableViewCell {
     
     var imageURL: String? {
         didSet {
-            print(imageURL)
+            print("⭐️",imageURL)
             loadImage()
         }
     }
@@ -86,8 +86,9 @@ extension LiquorTableViewCell {
         volume.text = data.volume
         mainIngredient.text = data.mainIngredient
         manufacturer.text = data.manufacturer
-        liquorImage.backgroundColor = .blue
-        fetchImgae(title: data.liquorName)
+        liquorImage.contentMode = .scaleAspectFit
+        //liquorImage.backgroundColor = .blue
+        //fetchImgae(title: data.liquorName)
     }
     
     func fetchImgae(title: String) {

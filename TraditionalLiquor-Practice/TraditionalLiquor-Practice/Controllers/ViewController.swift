@@ -122,7 +122,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             liquor = liquorRawData[indexPath.row]
         }
         cell.configure(with: liquor)
-        fetchImgae(title: liquor.liquorName, indexPath: indexPath)
+        cell.imageURL = fetchImgae(title: liquor.liquorName)
+//        cell.imageURL = "http://openapi-dbscthumb.phinf.naver.net/4776_000_1/20181013061306620_1KUWMGMM9.jpg/fe87_314_i1.jpg?type=m160_160"
         return cell
     }
     
@@ -135,19 +136,24 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    func fetchImgae(title: String, indexPath: IndexPath) {
+    func fetchImgae(title: String) -> String? {
+        var tempURL: String?
         NetworkManager.shared.fetchImage(title: title, display: 1) { result in
+            print(result)
             switch result {
             case .success(let value):
                 if value.count == 0 {
-                    print("nil")
+                    tempURL = nil
                 } else {
-                    print(value[0].title)
+                    //print("결과", value[0].thumbnail)
+                    tempURL = value[0].thumbnail
                 }
             case .failure(let failure):
                 print(failure.localizedDescription)
             }
         }
+        //print(tempURL)
+        return tempURL
     }
     
 }
