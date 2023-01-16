@@ -44,7 +44,7 @@ final class NetworkManager {
                 print("parse 실행")
                 completion(.success(results))
             } else {
-                print("parse 실패")
+                print("parse 실패-1")
                 completion(.failure(.parseError))
             }
         }.resume()
