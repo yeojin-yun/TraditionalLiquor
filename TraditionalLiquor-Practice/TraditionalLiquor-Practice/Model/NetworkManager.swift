@@ -12,16 +12,24 @@ final class NetworkManager {
     
     private init() {}
     
-    
-    
+    // 네트워킹 요청하는 함수 (음악데이터 가져오기)
     func fetchImage(title: String, display: Int, completion: @escaping (Result<[Item], NetworkError>) -> Void) {
         let baseURL = "https://openapi.naver.com/v1/search/encyc.json?query=\(title)&display=\(display)"
         
-//        let baseURL = "https://openapi.naver.com/v1/search/encyc.json?query=애피소드호프&display=1"
         guard let safeURL = baseURL.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
 
         guard let url = URL(string: safeURL) else { return }
-        var request = URLRequest(url: url)
+
+        performRequest(with: url) { result in
+            completion(result)
+        }
+        
+    }
+    
+    func performRequest(with urlString: URL, completion: @escaping (Result<[Item], NetworkError>) -> Void) {
+        
+
+        var request = URLRequest(url: urlString)
         
         request.httpMethod = "GET"
         request.setValue("TUWSiHEpK6xMQCi8Jqrq", forHTTPHeaderField: "X-Naver-Client-Id")
@@ -41,10 +49,10 @@ final class NetworkManager {
             }
             
             if let results = self.parseJSON(safeData) {
-                print("parse 실행")
+                print("parse 실행", results)
                 completion(.success(results))
             } else {
-                print("parse 실패-1")
+                print("parse 실패")
                 completion(.failure(.parseError))
             }
         }.resume()
@@ -53,6 +61,7 @@ final class NetworkManager {
     func parseJSON(_ resultData: Data) -> [Item]? {
         do {
             let results = try JSONDecoder().decode(Results.self, from: resultData)
+            print("parse결과", results.items[0].thumbnail)
             return results.items
         } catch {
             print(error.localizedDescription)

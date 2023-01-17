@@ -10,7 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    var liquorRawData: [TraditionalLiquor]!
+    var liquorRawData: [TraditionalLiquor] = [] {
+        didSet {
+            print(liquorRawData.forEach { $0.liquorName })
+        }
+    }
     private let tableView: UITableView = UITableView()
     private let searchController: UISearchController = UISearchController(searchResultsController: nil)
     private var filterdLiquorList: [TraditionalLiquor] = []
@@ -21,7 +25,8 @@ class ViewController: UIViewController {
         return !isSearchBarEmpty && searchController.isActive
     }
     
-    
+    private var urlArray: [Item] = []
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         getPath()
@@ -29,8 +34,6 @@ class ViewController: UIViewController {
         setBasics()
         setNavigation()
         setSearchController()
-        
-
     }
 
 
@@ -45,10 +48,21 @@ class ViewController: UIViewController {
         if let data = data, let liquor = try? decoder.decode([TraditionalLiquor].self, from: data) {
             liquorRawData = liquor
         }
+        print("liauor", liquorRawData.forEach({ $0.liquorName }))
+        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
+            switch result {
+            case .success(let success):
+                self.urlArray = success
+                print("성공", self.urlArray)
+                
+//                DispatchQueue.main.async {
+//                    self.tableView.reloadData()
+//                }
+            case .failure(let failure):
+                print("실패", failure)
+            }
+        }
         
-//        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
-//            print(result)
-//        }
     }
 }
 
@@ -122,8 +136,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             liquor = liquorRawData[indexPath.row]
         }
         cell.configure(with: liquor)
-        cell.imageURL = fetchImgae(title: liquor.liquorName)
-//        cell.imageURL = "http://openapi-dbscthumb.phinf.naver.net/4776_000_1/20181013061306620_1KUWMGMM9.jpg/fe87_314_i1.jpg?type=m160_160"
+        print(urlArray[0].title)
+//        cell.imageURL = urlArray[0]
+        
         return cell
     }
     
@@ -135,25 +150,25 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
         }
     }
-    
-    func fetchImgae(title: String) -> String? {
-        var tempURL: String?
-        NetworkManager.shared.fetchImage(title: title, display: 1) { result in
-            print(result)
-            switch result {
-            case .success(let value):
-                if value.count == 0 {
-                    tempURL = nil
-                } else {
-                    //print("결과", value[0].thumbnail)
-                    tempURL = value[0].thumbnail
-                }
-            case .failure(let failure):
-                print(failure.localizedDescription)
-            }
-        }
-        //print(tempURL)
-        return tempURL
-    }
+//
+//    func fetchImgae(title: String) -> String? {
+//        var tempURL: String?
+//        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
+//
+//            switch result {
+//            case .success(let value):
+//                if value.count == 0 {
+//                    tempURL = nil
+//                } else {
+//                    //print("결과", value[0].thumbnail)
+//                    tempURL = value[0].thumbnail
+//                }
+//            case .failure(let failure):
+//                print(failure.localizedDescription)
+//            }
+//        }
+//        //print(tempURL)
+//        return tempURL
+//    }
     
 }
