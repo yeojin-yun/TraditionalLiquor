@@ -49,10 +49,10 @@ final class NetworkManager {
             }
             
             if let results = self.parseJSON(safeData) {
-                print("parse 실행", results)
+//                print("parse 실행", results)
                 completion(.success(results))
             } else {
-                print("parse 실패")
+//                print("parse 실패")
                 completion(.failure(.parseError))
             }
         }.resume()
@@ -61,7 +61,7 @@ final class NetworkManager {
     func parseJSON(_ resultData: Data) -> [Item]? {
         do {
             let results = try JSONDecoder().decode(Results.self, from: resultData)
-            print("parse결과", results.items[0].thumbnail)
+//            print("parse결과", results.items, results.items.count)
             return results.items
         } catch {
             print(error.localizedDescription)

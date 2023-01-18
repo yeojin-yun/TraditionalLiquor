@@ -14,7 +14,7 @@ class LiquorTableViewCell: UITableViewCell {
     let networkManager = NetworkManager.shared
     
     // 이름, 도수, 용량, 주재료, 제조사
-    let liquorImage: UIImageView!
+    let liquorImage: UIImageView = UIImageView()
     let title: UILabel = UILabel()
     let alcohol: UILabel = UILabel()
     let volume: UILabel = UILabel()
@@ -31,7 +31,7 @@ class LiquorTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUI()
         setConstraints()
-        
+        liquorImage.image = UIImage(systemName: "pencil")
     }
     
     required init?(coder: NSCoder) {
@@ -90,7 +90,6 @@ extension LiquorTableViewCell {
     
     func loadImage() {
         guard let urlString = imageURL?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed), let url = URL(string: urlString)  else { return }
-        print(#function, url)
         // 오래걸리는 작업을 동시성 처리 (다른 쓰레드에서 일시킴)
         DispatchQueue.global().async {
             // URL을 가지고 데이터를 만드는 메서드 (오래걸리는데 동기적인 실행)

@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     var liquorRawData: [TraditionalLiquor] = [] {
         didSet {
-            print(liquorRawData.forEach { $0.liquorName })
+            //print(liquorRawData.forEach { $0.liquorName })
         }
     }
     private let tableView: UITableView = UITableView()
@@ -48,20 +48,20 @@ class ViewController: UIViewController {
         if let data = data, let liquor = try? decoder.decode([TraditionalLiquor].self, from: data) {
             liquorRawData = liquor
         }
-        print("liauor", liquorRawData.forEach({ $0.liquorName }))
-        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
-            switch result {
-            case .success(let success):
-                self.urlArray = success
-                print("성공", self.urlArray)
-                
-//                DispatchQueue.main.async {
-//                    self.tableView.reloadData()
-//                }
-            case .failure(let failure):
-                print("실패", failure)
-            }
-        }
+        //print("liauor", liquorRawData.forEach({ $0.liquorName }))
+//        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
+//            switch result {
+//            case .success(let success):
+//                self.urlArray = success
+//                print("성공", self.urlArray)
+//                
+////                DispatchQueue.main.async {
+////                    self.tableView.reloadData()
+////                }
+//            case .failure(let failure):
+//                print("실패", failure)
+//            }
+//        }
         
     }
 }
@@ -136,8 +136,19 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             liquor = liquorRawData[indexPath.row]
         }
         cell.configure(with: liquor)
-        print(urlArray[0].title)
-//        cell.imageURL = urlArray[0]
+        print("⭐️",liquor.liquorName)
+        NetworkManager.shared.fetchImage(title: liquor.liquorName, display: 1) { results in
+            switch results {
+            case .success(let success):
+                if success.isEmpty {
+                    cell.imageURL = nil
+                } else {
+                    cell.imageURL = success[0].thumbnail
+                }
+            case .failure(let failure):
+                print(failure)
+            }
+        }
         
         return cell
     }
