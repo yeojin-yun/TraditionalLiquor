@@ -30,8 +30,8 @@ class LiquorTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUI()
-        setConstraints()
-        liquorImage.image = UIImage(systemName: "pencil")
+        setAttributes()
+        
     }
     
     required init?(coder: NSCoder) {
@@ -40,8 +40,6 @@ class LiquorTableViewCell: UITableViewCell {
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 }
 
@@ -51,9 +49,7 @@ extension LiquorTableViewCell {
             contentView.addSubview($0)
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
-    }
-    
-    private func setConstraints() {
+        
         NSLayoutConstraint.activate([
             liquorImage.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
             liquorImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
@@ -75,8 +71,12 @@ extension LiquorTableViewCell {
             mainIngredient.topAnchor.constraint(equalTo: liquorImage.bottomAnchor, constant: 20),
             mainIngredient.leadingAnchor.constraint(equalTo: liquorImage.leadingAnchor),
             mainIngredient.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
-            
         ])
+    }
+    
+    private func setAttributes() {
+        liquorImage.image = UIImage(systemName: "drop")
+        liquorImage.contentMode = .scaleAspectFit
     }
     
     func configure(with data: TraditionalLiquor) {
@@ -85,7 +85,6 @@ extension LiquorTableViewCell {
         volume.text = data.volume
         mainIngredient.text = data.mainIngredient
         manufacturer.text = data.manufacturer
-        liquorImage.contentMode = .scaleAspectFit
     }
     
     func loadImage() {

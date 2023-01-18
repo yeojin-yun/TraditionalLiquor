@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0C7ABE9F29646917002097B8 /* LiquorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABE9E29646917002097B8 /* LiquorTableViewCell.swift */; };
 		0C7ABEA3296C36AD002097B8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABEA2296C36AD002097B8 /* NetworkManager.swift */; };
-		0C7ABEA529780BFA002097B8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABEA429780BFA002097B8 /* TestViewController.swift */; };
-		0C7ABEA729780C06002097B8 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABEA629780C06002097B8 /* TestTableViewCell.swift */; };
 		0CEF8D2F295E6B2400AB44BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF8D2E295E6B2400AB44BC /* AppDelegate.swift */; };
 		0CEF8D31295E6B2400AB44BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF8D30295E6B2400AB44BC /* SceneDelegate.swift */; };
 		0CEF8D33295E6B2400AB44BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF8D32295E6B2400AB44BC /* ViewController.swift */; };
@@ -24,8 +22,6 @@
 /* Begin PBXFileReference section */
 		0C7ABE9E29646917002097B8 /* LiquorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquorTableViewCell.swift; sourceTree = "<group>"; };
 		0C7ABEA2296C36AD002097B8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		0C7ABEA429780BFA002097B8 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		0C7ABEA629780C06002097B8 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		0CEF8D2B295E6B2400AB44BC /* TraditionalLiquor-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TraditionalLiquor-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEF8D2E295E6B2400AB44BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEF8D30295E6B2400AB44BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				0C7ABE9E29646917002097B8 /* LiquorTableViewCell.swift */,
-				0C7ABEA629780C06002097B8 /* TestTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				0CEF8D32295E6B2400AB44BC /* ViewController.swift */,
-				0C7ABEA429780BFA002097B8 /* TestViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,12 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7ABEA529780BFA002097B8 /* TestViewController.swift in Sources */,
 				0C7ABEA3296C36AD002097B8 /* NetworkManager.swift in Sources */,
 				0C7ABE9F29646917002097B8 /* LiquorTableViewCell.swift in Sources */,
 				0CEF8D33295E6B2400AB44BC /* ViewController.swift in Sources */,
 				0CEF8D47295E720E00AB44BC /* TraditionalLiquor.swift in Sources */,
-				0C7ABEA729780C06002097B8 /* TestTableViewCell.swift in Sources */,
 				0CEF8D2F295E6B2400AB44BC /* AppDelegate.swift in Sources */,
 				0CEF8D31295E6B2400AB44BC /* SceneDelegate.swift in Sources */,
 			);

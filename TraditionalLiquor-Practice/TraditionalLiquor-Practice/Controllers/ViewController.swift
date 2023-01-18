@@ -30,10 +30,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getPath()
-        setLayout()
-        setBasics()
-        setNavigation()
-        setSearchController()
+        setUI()
     }
 
 
@@ -48,42 +45,29 @@ class ViewController: UIViewController {
         if let data = data, let liquor = try? decoder.decode([TraditionalLiquor].self, from: data) {
             liquorRawData = liquor
         }
-        //print("liauor", liquorRawData.forEach({ $0.liquorName }))
-//        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
-//            switch result {
-//            case .success(let success):
-//                self.urlArray = success
-//                print("성공", self.urlArray)
-//                
-////                DispatchQueue.main.async {
-////                    self.tableView.reloadData()
-////                }
-//            case .failure(let failure):
-//                print("실패", failure)
-//            }
-//        }
-        
     }
 }
 
 // MARK: -UI
 extension ViewController {
-    final private func setLayout() {
-        view.addSubview(tableView)
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.frame = view.frame
+    final private func setUI() {
+        setConstraints()
+        setUpTableView()
+        setNavigation()
+        setSearchController()
     }
     
-    final private func setBasics() {
-        //MARK: -Delegate, Data Source
-        tableView.register(LiquorTableViewCell.self.self, forCellReuseIdentifier: LiquorTableViewCell.identifier)
+    final private func setUpTableView() {
+        tableView.register(LiquorTableViewCell.self, forCellReuseIdentifier: LiquorTableViewCell.identifier)
         tableView.rowHeight = 230
         tableView.dataSource = self
         tableView.delegate = self
     }
     
     private func setConstraints() {
-        
+        view.addSubview(tableView)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.frame = view.frame
     }
     
     private func setNavigation() {
@@ -104,7 +88,7 @@ extension ViewController {
 //MARK: - SearchController Delegate
 extension ViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        print(searchController.searchBar.text)
+        //print(searchController.searchBar.text)
         
         filterdLiquorList = liquorRawData.filter({ liquor in
             return liquor.liquorName.contains(searchController.searchBar.text ?? "")
@@ -113,7 +97,7 @@ extension ViewController: UISearchResultsUpdating {
     }
     
     func updateSearchResults(for searchController: UISearchController, selecting searchSuggestion: UISearchSuggestion) {
-        print(searchSuggestion.localizedDescription)
+        //print(searchSuggestion.localizedDescription)
     }
     
 }
@@ -136,7 +120,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             liquor = liquorRawData[indexPath.row]
         }
         cell.configure(with: liquor)
-        print("⭐️",liquor.liquorName)
+
         NetworkManager.shared.fetchImage(title: liquor.liquorName, display: 1) { results in
             switch results {
             case .success(let success):
@@ -161,25 +145,4 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
         }
     }
-//
-//    func fetchImgae(title: String) -> String? {
-//        var tempURL: String?
-//        NetworkManager.shared.fetchImage(title: "애피소드 호프", display: 1) { result in
-//
-//            switch result {
-//            case .success(let value):
-//                if value.count == 0 {
-//                    tempURL = nil
-//                } else {
-//                    //print("결과", value[0].thumbnail)
-//                    tempURL = value[0].thumbnail
-//                }
-//            case .failure(let failure):
-//                print(failure.localizedDescription)
-//            }
-//        }
-//        //print(tempURL)
-//        return tempURL
-//    }
-    
 }
