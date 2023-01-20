@@ -99,7 +99,6 @@ extension ViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController, selecting searchSuggestion: UISearchSuggestion) {
         //print(searchSuggestion.localizedDescription)
     }
-    
 }
 
 //MARK: -Delegate, Data Source
