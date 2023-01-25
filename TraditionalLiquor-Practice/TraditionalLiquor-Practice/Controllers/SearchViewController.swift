@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchViewController: BaseViewController {
     
     
     var liquorRawData: [TraditionalLiquor] = [] {
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
 }
 
 // MARK: -UI
-extension ViewController {
+extension SearchViewController {
     final private func setUI() {
         setConstraints()
         setUpTableView()
@@ -86,7 +86,7 @@ extension ViewController {
 }
 
 //MARK: - SearchController Delegate
-extension ViewController: UISearchResultsUpdating {
+extension SearchViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         //print(searchController.searchBar.text)
         
@@ -102,7 +102,7 @@ extension ViewController: UISearchResultsUpdating {
 }
 
 //MARK: -Delegate, Data Source
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isFiltering {
             return filterdLiquorList.count

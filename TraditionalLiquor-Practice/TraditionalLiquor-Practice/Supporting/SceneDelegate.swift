@@ -17,13 +17,41 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
+        
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: scene.coordinateSpace.bounds)
         window?.windowScene = scene
+        
+        let tabBarVC = UITabBarController()
+        
+        let fisrtVC = HomeViewController()
+        let secondVC = SearchViewController()
+        let thirdVC = FeedViewController()
+        let forthVC = MyPageViewController()
+        
+        let nav1 = UINavigationController(rootViewController: fisrtVC)
+        let nav2 = UINavigationController(rootViewController: secondVC)
+        let nav3 = UINavigationController(rootViewController: thirdVC)
+        let nav4 = UINavigationController(rootViewController: forthVC)
+        
+        nav1.tabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName: "house"), tag: 0)
+        nav1.navigationBar.topItem?.title = "홈"
+        //nav1.navigationItem.title = "Test"
+        
+        nav2.tabBarItem = UITabBarItem(title: "검색", image: UIImage(systemName: "viewfinder.circle"), tag: 1)
+        nav2.navigationBar.topItem?.title = "검색"
+        
+        nav3.tabBarItem = UITabBarItem(title: "피드", image: UIImage(systemName: "list.bullet.below.rectangle"), tag: 2)
+        nav3.navigationBar.topItem?.title = "피드"
+        
+        nav4.tabBarItem = UITabBarItem(title: "내꺼", image: UIImage(systemName: "person.fill"), tag: 2)
+        nav4.navigationBar.topItem?.title = "내꺼"
+        
+        tabBarVC.setViewControllers([nav1, nav2, nav3, nav4], animated: true)
+        
+        window?.rootViewController = tabBarVC
         window?.makeKeyAndVisible()
-        let vc = ViewController()
-        let navController = UINavigationController(rootViewController: vc)
-        window?.rootViewController = navController
+    
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
