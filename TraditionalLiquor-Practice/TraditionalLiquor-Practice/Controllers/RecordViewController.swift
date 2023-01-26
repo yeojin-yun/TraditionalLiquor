@@ -1,17 +1,17 @@
 //
-//  MyPageViewController.swift
+//  RecordViewController.swift
 //  TraditionalLiquor-Practice
 //
-//  Created by 순진이 on 2023/01/25.
+//  Created by 순진이 on 2023/01/26.
 //
 
 import UIKit
 
-class MyPageViewController: BaseViewController {
+class RecordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = .yellow
         // Do any additional setup after loading the view.
     }
     
@@ -27,4 +27,3 @@ class MyPageViewController: BaseViewController {
     */
 
 }
-

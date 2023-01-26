@@ -13,6 +13,16 @@
 		0C7ABEFA29816A6A002097B8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABEF929816A6A002097B8 /* FeedViewController.swift */; };
 		0C7ABEFC29816A7F002097B8 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABEFB29816A7F002097B8 /* MyPageViewController.swift */; };
 		0C7ABEFE29816AB7002097B8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABEFD29816AB7002097B8 /* BaseViewController.swift */; };
+		0C7ABF082982A871002097B8 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABEFF2982A871002097B8 /* Pretendard-ExtraBold.ttf */; };
+		0C7ABF092982A871002097B8 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF002982A871002097B8 /* Pretendard-Thin.ttf */; };
+		0C7ABF0A2982A871002097B8 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF012982A871002097B8 /* Pretendard-Medium.ttf */; };
+		0C7ABF0B2982A871002097B8 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF022982A871002097B8 /* Pretendard-Regular.ttf */; };
+		0C7ABF0C2982A871002097B8 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF032982A871002097B8 /* Pretendard-Black.ttf */; };
+		0C7ABF0D2982A871002097B8 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF042982A871002097B8 /* Pretendard-Bold.ttf */; };
+		0C7ABF0E2982A871002097B8 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF052982A871002097B8 /* Pretendard-Light.ttf */; };
+		0C7ABF0F2982A871002097B8 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF062982A871002097B8 /* Pretendard-ExtraLight.ttf */; };
+		0C7ABF102982A871002097B8 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7ABF072982A871002097B8 /* Pretendard-SemiBold.ttf */; };
+		0C7ABF132982BC10002097B8 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ABF122982BC10002097B8 /* RecordViewController.swift */; };
 		0CEF8D2F295E6B2400AB44BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF8D2E295E6B2400AB44BC /* AppDelegate.swift */; };
 		0CEF8D31295E6B2400AB44BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF8D30295E6B2400AB44BC /* SceneDelegate.swift */; };
 		0CEF8D33295E6B2400AB44BC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF8D32295E6B2400AB44BC /* SearchViewController.swift */; };
@@ -30,6 +40,16 @@
 		0C7ABEF929816A6A002097B8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0C7ABEFB29816A7F002097B8 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		0C7ABEFD29816AB7002097B8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0C7ABEFF2982A871002097B8 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0C7ABF002982A871002097B8 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		0C7ABF012982A871002097B8 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		0C7ABF022982A871002097B8 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		0C7ABF032982A871002097B8 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		0C7ABF042982A871002097B8 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		0C7ABF052982A871002097B8 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		0C7ABF062982A871002097B8 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0C7ABF072982A871002097B8 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		0C7ABF122982BC10002097B8 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		0CEF8D2B295E6B2400AB44BC /* TraditionalLiquor-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TraditionalLiquor-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEF8D2E295E6B2400AB44BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEF8D30295E6B2400AB44BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +81,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		0C7ABF112982A895002097B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C7ABF032982A871002097B8 /* Pretendard-Black.ttf */,
+				0C7ABF042982A871002097B8 /* Pretendard-Bold.ttf */,
+				0C7ABEFF2982A871002097B8 /* Pretendard-ExtraBold.ttf */,
+				0C7ABF062982A871002097B8 /* Pretendard-ExtraLight.ttf */,
+				0C7ABF052982A871002097B8 /* Pretendard-Light.ttf */,
+				0C7ABF012982A871002097B8 /* Pretendard-Medium.ttf */,
+				0C7ABF022982A871002097B8 /* Pretendard-Regular.ttf */,
+				0C7ABF072982A871002097B8 /* Pretendard-SemiBold.ttf */,
+				0C7ABF002982A871002097B8 /* Pretendard-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0CEF8D22295E6B2400AB44BC = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +122,7 @@
 				0CEF8D3C295E6B2500AB44BC /* Info.plist */,
 				0C7ABEA12964692A002097B8 /* Views */,
 				0CEF8D4B29627D0B00AB44BC /* Controllers */,
+				0C7ABF112982A895002097B8 /* Fonts */,
 				0CEF8D4929627CFC00AB44BC /* Supporting */,
 				0CEF8D4829627CEF00AB44BC /* Model */,
 			);
@@ -119,6 +156,7 @@
 				0C7ABEF929816A6A002097B8 /* FeedViewController.swift */,
 				0C7ABEFB29816A7F002097B8 /* MyPageViewController.swift */,
 				0C7ABEFD29816AB7002097B8 /* BaseViewController.swift */,
+				0C7ABF122982BC10002097B8 /* RecordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,10 +219,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7ABF0E2982A871002097B8 /* Pretendard-Light.ttf in Resources */,
+				0C7ABF092982A871002097B8 /* Pretendard-Thin.ttf in Resources */,
 				0CEF8D3B295E6B2500AB44BC /* LaunchScreen.storyboard in Resources */,
+				0C7ABF0F2982A871002097B8 /* Pretendard-ExtraLight.ttf in Resources */,
+				0C7ABF0B2982A871002097B8 /* Pretendard-Regular.ttf in Resources */,
 				0CEF8D38295E6B2500AB44BC /* Assets.xcassets in Resources */,
+				0C7ABF082982A871002097B8 /* Pretendard-ExtraBold.ttf in Resources */,
 				0CEF8D36295E6B2400AB44BC /* Main.storyboard in Resources */,
+				0C7ABF0D2982A871002097B8 /* Pretendard-Bold.ttf in Resources */,
+				0C7ABF0A2982A871002097B8 /* Pretendard-Medium.ttf in Resources */,
 				0CEF8D43295E6BAA00AB44BC /* LiquorList.json in Resources */,
+				0C7ABF0C2982A871002097B8 /* Pretendard-Black.ttf in Resources */,
+				0C7ABF102982A871002097B8 /* Pretendard-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +247,7 @@
 				0C7ABE9F29646917002097B8 /* LiquorTableViewCell.swift in Sources */,
 				0CEF8D33295E6B2400AB44BC /* SearchViewController.swift in Sources */,
 				0CEF8D47295E720E00AB44BC /* TraditionalLiquor.swift in Sources */,
+				0C7ABF132982BC10002097B8 /* RecordViewController.swift in Sources */,
 				0C7ABEFE29816AB7002097B8 /* BaseViewController.swift in Sources */,
 				0CEF8D2F295E6B2400AB44BC /* AppDelegate.swift in Sources */,
 				0C7ABEF829816A62002097B8 /* HomeViewController.swift in Sources */,
