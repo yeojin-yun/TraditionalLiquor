@@ -17,6 +17,10 @@ class HomeViewController: BaseViewController {
         setUI()
         setUpNavigationBar()
         view.backgroundColor = .white
+        
+        let rightBarButton = UIBarButtonItem(image: UIImage(systemName: "plus.square"), style: .plain, target: self, action: #selector(plusButtonTapped(_:)))
+        self.navigationItem.rightBarButtonItem = rightBarButton
+        self.navigationItem.rightBarButtonItem?.tintColor = .black
     }
 }
 
@@ -26,7 +30,7 @@ extension HomeViewController {
         print(#function)
         let recordVC = RecordViewController()
         let nav = UINavigationController(rootViewController: recordVC)
-        self.navigationController?.pushViewController(nav, animated: true)
+        self.navigationController?.pushViewController(recordVC, animated: true)
     }
 }
 
@@ -69,19 +73,20 @@ extension HomeViewController {
         plusButton.tintColor = .black
         plusButton.addTarget(self, action: #selector(plusButtonTapped(_:)), for: .touchUpInside)
         
-        [titleLabel, plusButton].forEach {
+        [titleLabel].forEach {
             titleView.addSubview($0)
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
         
         NSLayoutConstraint.activate([
             titleLabel.leadingAnchor.constraint(equalTo: titleView.leadingAnchor, constant: 20),
+            titleLabel.trailingAnchor.constraint(equalTo: titleView.trailingAnchor, constant: -140),
             titleLabel.centerYAnchor.constraint(equalTo: titleView.centerYAnchor, constant: 5),
-            
-            plusButton.leadingAnchor.constraint(equalTo: titleLabel.trailingAnchor, constant: 150),
-            plusButton.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor),
-            plusButton.heightAnchor.constraint(equalToConstant: 50),
-            plusButton.widthAnchor.constraint(equalToConstant: 50)
+//            
+//            plusButton.leadingAnchor.constraint(equalTo: titleLabel.trailingAnchor, constant: 150),
+//            plusButton.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor),
+//            plusButton.heightAnchor.constraint(equalToConstant: 50),
+//            plusButton.widthAnchor.constraint(equalToConstant: 50)
         ])
         
         navigationItem.titleView = titleView
