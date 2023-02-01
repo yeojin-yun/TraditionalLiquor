@@ -7,9 +7,9 @@
 
 import UIKit
 
-class RecordViewController: UIViewController {
+class RecordViewController: BaseViewController {
     
-    let grayFirstBackView: UIView = UIView()
+    let searchButton: UIButton = UIButton()
     let graySecondBackView: UIView = UIView()
     
     
@@ -27,11 +27,22 @@ extension RecordViewController {
     }
     
     func setAttributes() {
-        
+        searchButton.configuration = .setWineButtonStyle("전통주를 검색해주세요.")
+        searchButton.backgroundColor = .lightGray
     }
     
     func setConstraints() {
+        [searchButton].forEach {
+            view.addSubview($0)
+            $0.translatesAutoresizingMaskIntoConstraints = false
+        }
         
+        NSLayoutConstraint.activate([
+            searchButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
+            searchButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20),
+            searchButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+            
+        ])
     }
     
     func setNavigationBar() {
@@ -40,18 +51,15 @@ extension RecordViewController {
 }
 
 extension UIButton.Configuration {
-    static func setWineButtonStyle(_ title: String, image: UIImage) -> UIButton.Configuration {
+    static func setWineButtonStyle(_ title: String) -> UIButton.Configuration {
         var configuration = self.plain()
         var titleAttributed = AttributedString.init(title)
-        titleAttributed.font = UIFont(name: "GowunBatang-Regular", size: 18)
+        titleAttributed.font = UIFont(name: "Pretendard-Regular", size: 18)
         titleAttributed.foregroundColor = .darkGray
         configuration.title = title
-        configuration.titleAlignment = .center
-        configuration.image = image
-//        configuration.baseForegroundColor = .darkGray
-//        configuration.baseBackgroundColor = .myGreen
-        configuration.imagePlacement = .top
-        configuration.imagePadding = 8
+        configuration.titleAlignment = .leading
+        configuration.baseForegroundColor = .darkGray
+        configuration.baseBackgroundColor = .lightGray
         configuration.attributedTitle = titleAttributed
         return configuration
     }
