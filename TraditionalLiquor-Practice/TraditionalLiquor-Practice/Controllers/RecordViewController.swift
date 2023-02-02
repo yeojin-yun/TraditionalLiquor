@@ -29,6 +29,7 @@ extension RecordViewController {
     func setAttributes() {
         searchButton.configuration = .setWineButtonStyle("전통주를 검색해주세요.")
         searchButton.backgroundColor = .lightGray
+        
     }
     
     func setConstraints() {
@@ -41,7 +42,7 @@ extension RecordViewController {
             searchButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
             searchButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20),
             searchButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
-            
+            searchButton.heightAnchor.constraint(equalToConstant: 72)
         ])
     }
     
@@ -57,7 +58,8 @@ extension UIButton.Configuration {
         titleAttributed.font = UIFont(name: "Pretendard-Regular", size: 18)
         titleAttributed.foregroundColor = .darkGray
         configuration.title = title
-        configuration.titleAlignment = .leading
+        configuration.titleAlignment = .trailing
+        configuration.title
         configuration.baseForegroundColor = .darkGray
         configuration.baseBackgroundColor = .lightGray
         configuration.attributedTitle = titleAttributed
