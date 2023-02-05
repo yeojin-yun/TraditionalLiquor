@@ -21,14 +21,28 @@ class RecordViewController: BaseViewController {
 }
 
 extension RecordViewController {
+    @objc func searchButtonTapped(_ sender: UIButton) {
+        let vc = RecordSearchViewController()
+        self.present(vc, animated: true)
+    }
+}
+
+extension RecordViewController {
     func setUI() {
         setAttributes()
         setConstraints()
+        setNavigationBar()
     }
     
     func setAttributes() {
-        searchButton.configuration = .setWineButtonStyle("전통주를 검색해주세요.")
-        searchButton.backgroundColor = .lightGray
+//        searchButton.configuration = .setWineButtonStyle("전통주를 검색해주세요.")
+        searchButton.setTitle("전통주를 검색해주세요.", for: .normal)
+        searchButton.setTitleColor(UIColor(hexString: "141414"), for: .normal)
+        searchButton.backgroundColor = UIColor(hexString: "F0F0F0", alpha: 1.0)
+        searchButton.titleEdgeInsets = .init(top: 0, left: 20, bottom: 0, right: 0)
+        searchButton.contentHorizontalAlignment = .leading
+        searchButton.layer.cornerRadius = 4
+        searchButton.addTarget(self, action: #selector(searchButtonTapped(_:)), for: .touchUpInside)
         
     }
     
@@ -53,15 +67,14 @@ extension RecordViewController {
 
 extension UIButton.Configuration {
     static func setWineButtonStyle(_ title: String) -> UIButton.Configuration {
-        var configuration = self.plain()
+        var configuration = self.gray()
         var titleAttributed = AttributedString.init(title)
         titleAttributed.font = UIFont(name: "Pretendard-Regular", size: 18)
-        titleAttributed.foregroundColor = .darkGray
+//        titleAttributed.foregroundColor = .darkGray
         configuration.title = title
-        configuration.titleAlignment = .trailing
-        configuration.title
-        configuration.baseForegroundColor = .darkGray
-        configuration.baseBackgroundColor = .lightGray
+        configuration.titleAlignment = .leading
+//        configuration.baseForegroundColor = .darkGray
+//        configuration.baseBackgroundColor = .lightGray
         configuration.attributedTitle = titleAttributed
         return configuration
     }
